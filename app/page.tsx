@@ -31,13 +31,14 @@ export default function Home() {
         </a>
       </p>
       <img src="asset2.png" alt="" className="w-full object-fill " />
+      
       <div className="bg-black mx-[0.295px]">
         <h1 className="text-center px-5 text-white font-light xl:text-8xl ">
           Creating a{" "}
           <a href="" className="underline italic font-thin">
-            {" "}
-            bridge{" "}
-          </a>between good hearts
+            
+            bridge
+          </a>{" "}between good hearts
         </h1>
       </div>
     </div>
