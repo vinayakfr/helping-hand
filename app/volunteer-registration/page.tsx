@@ -136,7 +136,6 @@ function VolunteerReg() {
               Continue
             </a>
           </button>
-          
         </div>
       </div>
     </div>
