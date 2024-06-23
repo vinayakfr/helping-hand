@@ -3,16 +3,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <nav className="bg-black text-white p-4 flex justify-between items-center h-20 text-xl xl:text-2xl">
-        <div className="font-bold text-2xl xl:text-3xl">HelpingHand</div>
-        <div className="flex space-x-4">
-          <a href="" className="hover:underline">Search</a>
-          <a href="" className="hover:underline">Home</a>
-          <a href="" className="hover:underline">Inbox</a>
-          <a href="" className="hover:underline">Profile</a>
-        </div>
-      </nav>
-      
       <div>
         <h1 className="text-center xl:text-[9rem] font-bold">Welcome!!</h1>
         <p className="text-center font-medium xl:text-5xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
