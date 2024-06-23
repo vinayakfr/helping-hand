@@ -1,6 +1,9 @@
+import Navbar from "./components/navbar"
+
 export default function Home() {
   return (
     <div>
+      <Navbar/>
       <div>
         <h1 className="text-center xl:text-[9rem] font-bold">Welcome!!</h1>
         <p className="text-center font-medium xl:text-5xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
