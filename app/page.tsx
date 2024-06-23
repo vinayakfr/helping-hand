@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <div>
+      <div className="py-8">
         <h1 className="text-center text-4xl md:text-6xl lg:text-8xl xl:text-[9rem] font-bold">
           Welcome!!
         </h1>
