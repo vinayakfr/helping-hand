@@ -87,11 +87,11 @@ function VolunteerReg() {
           perspiciatis dolorum repellendus veritatis eveniet, neque illum
           tenetur quaerat aliquid dolorem.
         </p>
-        <div className="flex w-full justify-between place-content-center place-items-center px-24">
-          <div className="flex flex-col gap-2 place-content-center place-items-center xl:text-3xl font-thin italic ">
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        <div className="flex w-full justify-between place-content-center place-items-center px-24 py-5">
+          <div className="flex flex-col gap-4 place-content-center place-items-start xl:text-3xl font-thin italic ">
+            <li>Why did you start volunteering?.</li>
+            <li>Where have you worked before?</li>
+            <li>What is the one thing that you gained from volunteering?</li>
           </div>
           <textarea
             name="story"
