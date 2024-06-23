@@ -5,7 +5,7 @@ function VolunteerReg() {
   return (
     <div>
       <Navbar/>
-      {/* <div className="flex place-content-center place-items-start px-10">
+      <div className="flex place-content-center place-items-start px-10">
         <h1 className="xl:text-[8rem] font-bold">Volunteers Assemble</h1>
         <div className="flex flex-col gap-8 p-[3rem] bg-blck">
           <p className="xl:text-2xl font-light">
@@ -78,7 +78,7 @@ function VolunteerReg() {
             Continue
           </a>
         </button>
-      </div> */}
+      </div>
       <div className="flex flex-col gap-3 place-content-center place-items-center py-10">
         <h1 className="font-bold xl:text-8xl">Tell us your story</h1>
         <p className="text-center font-light xl:text-3xl px-10">
