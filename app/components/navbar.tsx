@@ -1,25 +1,39 @@
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoIosSearch } from "react-icons/io";
+
 export default function Navbar() {
   return (
-    <div>
-      <nav className="bg-black text-white p-4 flex justify-between items-center h-16 text-xl xl:text-2xl rounded-full my-4 mx-2 xl:mx-5">
-        <a href="#" className="font-bold text-2xl xl:text-3xl ml-5 hover:underline cursor-pointer">
-          HelpingHand
+    <div className="flex place-content-center">
+      <div className="h-10 lg:h-12 xl:h-[4rem] 2xl:h-28 w-[95%] bg-black flex justify-between place-items-center rounded-l-full rounded-r-full p-4 my-2 2xl:p-8">
+        <a href="/" className="font-bold xl:text-3xl 2xl:text-5xl text-white">
+          HelpingHands
         </a>
-        <div className="flex space-x-4 mr-5">
-          <a href="" className="hover:underline cursor-pointer">
-            Search
-          </a>
-          <a href="#" className="hover:underline cursor-pointer">
-            Home
-          </a>
-          <a href="" className="hover:underline cursor-pointer">
-            Inbox
-          </a>
-          <a href="" className="hover:underline cursor-pointer">
-            Profile
-          </a>
+        <div className="hidden md:block">
+          <div className="flex place-items-center gap-3">
+            <a href="" className="2xl:hidden">
+              <IoIosSearch size={25} color="white" />
+            </a>
+            <a href="" className="hidden 2xl:block">
+              <IoIosSearch size={40} color="white" />
+            </a>
+            <a href="/" className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline">
+              Home
+            </a>
+            <a href="" className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline">
+              Inbox
+            </a>
+            <a href="" className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline">
+              About Us
+            </a>
+            <a href="" className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline">
+              Profile
+            </a>
+          </div>
         </div>
-      </nav>
+        <a href="" className="block md:hidden">
+          <GiHamburgerMenu size={25} color="white" />
+        </a>
+      </div>
     </div>
   );
 }

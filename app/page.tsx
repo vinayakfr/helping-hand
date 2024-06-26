@@ -74,7 +74,6 @@ export default function Home() {
                 <div className="xl:h-[15rem] xl:w-[15rem] rounded-full bg-white outline-offset-4 outline-dashed outline-white"></div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
