@@ -78,8 +78,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <Mission />
-        <Join />
       </div>
     </div>
   );
