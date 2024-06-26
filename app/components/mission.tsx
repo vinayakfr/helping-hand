@@ -7,37 +7,31 @@ function Mission() {
         <div className="h-[45rem] absolute grid grid-rows-3 place-content-center place-items-center gap-24 text-center font-medium">
           <div>
             <li className="h-16 w-56">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              consequuntur maxime unde sint, quas sequi?
+              Connecting passionate volunteers with impactful NGO opportunities.
             </li>
           </div>
           <div className="flex flex-col gap-36 place-content-center place-items-center">
             <div className="flex gap-96">
               <li className="h-16 w-44">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur illo ullam expedita fuga odio dolore.
+                Fostering meaningful collaborations to drive social change.
               </li>
               <li className="h-16 w-44">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur illo ullam expedita fuga odio dolore.
+                Supporting community development through volunteer engagement.
               </li>
             </div>
             <div className="flex gap-72">
               <li className="h-16 w-44">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas maiores excepturi quos fugiat eligendi est!
+                Enhancing individual growth through volunteer opportunities.
               </li>
               <li className="h-16 w-44 ml-9">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas maiores excepturi quos fugiat eligendi est!
+                Building a network of dedicated volunteers and impactful NGOs.
               </li>
             </div>
           </div>
 
           <div>
             <li className="h-16 w-44">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-              maxime obcaecati nemo voluptates nulla incidunt!
+              Creating lasting change through dedicated volunteer efforts.
             </li>
           </div>
         </div>
