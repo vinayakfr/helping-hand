@@ -7,31 +7,31 @@ function Mission() {
         <div className="h-[45rem] absolute grid grid-rows-3 place-content-center place-items-center gap-24 text-center font-medium">
           <div>
             <li className="h-16 w-56">
-              Connecting passionate volunteers with impactful NGO opportunities.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, saepe!
             </li>
           </div>
           <div className="flex flex-col gap-36 place-content-center place-items-center">
             <div className="flex gap-96">
               <li className="h-16 w-44">
-                Fostering meaningful collaborations to drive social change.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, ullam?
               </li>
               <li className="h-16 w-44">
-                Supporting community development through volunteer engagement.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, temporibus!
               </li>
             </div>
             <div className="flex gap-72">
               <li className="h-16 w-44">
-                Enhancing individual growth through volunteer opportunities.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, accusamus?
               </li>
               <li className="h-16 w-44 ml-9">
-                Building a network of dedicated volunteers and impactful NGOs.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, consequatur!
               </li>
             </div>
           </div>
 
           <div>
             <li className="h-16 w-44">
-              Creating lasting change through dedicated volunteer efforts.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, veritatis!
             </li>
           </div>
         </div>
