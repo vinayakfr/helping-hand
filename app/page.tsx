@@ -1,3 +1,5 @@
+import Join from "./components/joining";
+import Mission from "./components/mission";
 import Navbar from "./components/navbar";
 
 export default function Home() {
@@ -17,12 +19,12 @@ export default function Home() {
           sit autem dolorum quasi?
         </p>
         <div className="flex flex-col gap-3 lg:gap-4 xl:gap-5 place-content-center place-items-center lg:py-3 xl:py-5">
-          <button className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black">
+          <button className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black duration-300">
             <a href="" className="text-center md:text-lg xl:text-2xl">
               Read More
             </a>
           </button>
-          <button className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black hover:shadow-md hover:shadow-black">
+          <button className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black hover:shadow-md hover:shadow-black duration-300">
             <a href="" className="text-center md:text-lg xl:text-2xl">
               Join Us
             </a>
@@ -30,18 +32,18 @@ export default function Home() {
         </div>
         <p className="text-center pt-3 text-sm md:text-[1rem] xl:text-xl">
           Already a member?{" "}
-          <a href="" className="underline">
+          <a href="" className="underline hover:italic">
             Log in
           </a>
         </p>
         <img
           src="asset2.png"
           alt=""
-          className="w-full object-fill select-none"
+          className="w-full object-cover select-none"
         />
 
         <div className="bg-black text-white relative">
-          <h1 className="text-center px-5 text-white font-light xl:text-8xl">
+          <h1 className="text-center px-5 text-white font-light xl:text-8xl -translate-y-20">
             Creating a <a className="underline italic font-thin">bridge</a>{" "}
             between good hearts
           </h1>
@@ -74,7 +76,10 @@ export default function Home() {
                 <div className="xl:h-[15rem] xl:w-[15rem] rounded-full bg-white outline-offset-4 outline-dashed outline-white"></div>
               </div>
             </div>
+          </div>
         </div>
+        <Mission />
+        <Join />
       </div>
     </div>
   );
