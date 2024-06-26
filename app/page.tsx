@@ -40,14 +40,40 @@ export default function Home() {
           className="w-full object-fill select-none"
         />
 
-        <div className="bg-black mx-[0.295px] text-white">
-          <h1 className="text-center px-5 text-white font-light xl:text-8xl ">
+        <div className="bg-black text-white relative">
+          <h1 className="text-center px-5 text-white font-light xl:text-8xl">
             Creating a <a className="underline italic font-thin">bridge</a>{" "}
             between good hearts
           </h1>
-          <div> 
-            "To connect passionate volunteers with meaningful opportunities in non-governmental organizations (NGOs) worldwide, fostering impactful collaborations that drive social change, support community development, and enhance individual growth."
-          </div>
+          <div className="flex justify-between items-center w-full pt-10 px-10">
+            <div className="flex flex-col gap-5">
+              <h1 className="xl:text-2xl xl:w-[40rem] bg-white text-black rounded-r-full p-4">
+                "To connect passionate volunteers with meaningful opportunities
+                in non-governmental organizations (NGOs) worldwide, fostering
+                impactful collaborations that drive social change, support
+                community development, and enhance individual growth."
+              </h1>
+              <h1 className="xl:text-2xl xl:w-[40rem] bg-white text-black rounded-r-full p-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                placeat aliquam rem deleniti iste vitae tempora tempore? Fugit
+                labore ipsa rem recusandae incidunt cum facere libero totam,
+                blanditiis porro distinctio, odio quos adipisci, alias repellat.
+              </h1>
+              <h1 className="xl:text-2xl xl:w-[40rem] bg-white text-black rounded-r-full p-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                placeat aliquam rem deleniti iste vitae tempora tempore? Fugit
+                labore ipsa rem recusandae incidunt cum facere libero totam,
+                blanditiis porro distinctio, odio quos adipisci, alias repellat.
+              </h1>
+            </div>
+
+            <div className="grid grid-rows-1 grid-cols-2 items-center">
+              <div className="xl:h-[15rem] xl:w-[15rem] rounded-full bg-white outline-2 outline-offset-4 outline-dashed outline-white"></div>
+              <div className="flex flex-col gap-48">
+                <div className="xl:h-[15rem] xl:w-[15rem] rounded-full bg-white outline-offset-4 outline-dashed outline-white"></div>
+                <div className="xl:h-[15rem] xl:w-[15rem] rounded-full bg-white outline-offset-4 outline-dashed outline-white"></div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
