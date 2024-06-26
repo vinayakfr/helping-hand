@@ -45,6 +45,9 @@ export default function Home() {
             Creating a <a className="underline italic font-thin">bridge</a>{" "}
             between good hearts
           </h1>
+          <div> 
+            "To connect passionate volunteers with meaningful opportunities in non-governmental organizations (NGOs) worldwide, fostering impactful collaborations that drive social change, support community development, and enhance individual growth."
+          </div>
         </div>
       </div>
     </div>

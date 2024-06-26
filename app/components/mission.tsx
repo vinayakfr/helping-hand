@@ -7,37 +7,31 @@ function Mission() {
         <div className="h-[45rem] absolute grid grid-rows-3 place-content-center place-items-center gap-24 text-center font-medium">
           <div>
             <li className="h-16 w-56">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              consequuntur maxime unde sint, quas sequi?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, saepe!
             </li>
           </div>
           <div className="flex flex-col gap-36 place-content-center place-items-center">
             <div className="flex gap-96">
               <li className="h-16 w-44">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur illo ullam expedita fuga odio dolore.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, ullam?
               </li>
               <li className="h-16 w-44">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur illo ullam expedita fuga odio dolore.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, temporibus!
               </li>
             </div>
             <div className="flex gap-72">
               <li className="h-16 w-44">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas maiores excepturi quos fugiat eligendi est!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, accusamus?
               </li>
               <li className="h-16 w-44 ml-9">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas maiores excepturi quos fugiat eligendi est!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, consequatur!
               </li>
             </div>
           </div>
 
           <div>
             <li className="h-16 w-44">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-              maxime obcaecati nemo voluptates nulla incidunt!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, veritatis!
             </li>
           </div>
         </div>
