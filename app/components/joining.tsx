@@ -24,7 +24,7 @@ function Join() {
           </div>
           <div className="flex flex-col gap-3 xl:gap-6 place-content-center place-items-center pt-10 xl:pt-0 xl:px-32">
             <a href="/volunteer-registration" className="hidden lg:block">
-              <button className="text-start w-80 h-40 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-500 text-white hover:text-black xl:text-2xl relative p-3">
+              <button className="text-start w-80 h-40 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-500 text-white hover:text-black xl:text-2xl hover:shadow-xl relative p-3">
                 <span className="underline">Volunteer</span>
                 <br />
                 <span className="no-underline text-lg">
@@ -34,13 +34,13 @@ function Join() {
               </button>
             </a>
             <a href="/volunteer-registration" className="lg:hidden">
-              <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-500 text-white hover:text-black xl:text-2xl relative">
+              <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-500 text-white hover:text-black xl:text-2xl hover:shadow-xl relative">
                 <span className="text-2xl">Volunteer</span>
               </button>
             </a>
 
             <a href="" className="hidden lg:block">
-              <button className="text-start w-80 h-40 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-500 text-white hover:text-black xl:text-2xl relative p-3">
+              <button className="text-start w-80 h-40 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-500 text-white hover:text-black xl:text-2xl hover:shadow-xl relative p-3">
                 <span className="underline">Organisation</span>
                 <br />
                 <span className="no-underline text-lg">
@@ -50,8 +50,8 @@ function Join() {
               </button>
             </a>
             <a href="/volunteer-registration" className="lg:hidden">
-              <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-500 text-white hover:text-black xl:text-2xl relative">
-                <span className="text-2xl">Organisation</span>
+              <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-500 hover:text-black relative">
+                <span className="text-2xl text-white xl:text-2xl">Organisation</span>
               </button>
             </a>
           </div>
