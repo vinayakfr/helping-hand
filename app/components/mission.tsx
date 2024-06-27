@@ -4,7 +4,7 @@ function Mission() {
   return (
     <div>
       <div className="lg:hidden">
-        <div className="bg-black w-full h-[50rem] flex place-content-end place-items-center">
+        <div className="bg-black w-full h-[47.5rem] flex place-content-end place-items-center">
           <div className="bg-white w-[92%] h-[37.5rem] rounded-l-full flex place-content-end place-items-center">
             <div className="absolute h-[40rem] w-full flex place-content-end place-items-center">
               <div className="grid gird-rows-3 grid-cols-3 text-rose-500 place-items-center pl-12 pr-">
@@ -75,6 +75,7 @@ function Mission() {
           </div>
         </div>
       </div>
+      <img src="asset1.png" alt="" className="w-full object-cover"/>
     </div>
   );
 }
