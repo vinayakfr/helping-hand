@@ -12,7 +12,7 @@ function Join() {
           <div className="flex flex-col gap-2 xl:px-10">
             <p className="xl:text-3xl px-10">
               If you are looking for places where you can use your good-will and
-              resources that can touch someone's heart
+              resources that can touch someone&apos;s heart
             </p>
             <p className="xl:text-3xl px-10">
               Or if you are an up-and-coming organisation sought to fight the

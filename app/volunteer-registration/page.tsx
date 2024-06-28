@@ -68,7 +68,7 @@ function VolunteerReg() {
       {step === 2 && (
         <div className="flex flex-col gap-5 place-content-center place-items-center px-3 xl:px-10 py-10">
           <h1 className="text-center text-5xl xl:text-6xl font-bold">
-            Let's start by creating your profile
+            Let&apos;s start by creating your profile
           </h1>
           <p className="text-center text-lg xl:text-3xl font-light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
