@@ -70,8 +70,31 @@ function OrganisationReg() {
       )}
 
       {step === 2 && (
-        <div className="flex flex-col gap-5 place-content-center place-items-center px-3 xl:px-10 py-10">
-         
+        <div className="flex justify-between place-content-center place-items-center w-full px-16">
+          <div>
+            <h1 className="font-bold xl:text-[9rem] w-[20rem] h-[45rem] leading-[8.5rem]">
+              Let&apos;s start with your name
+            </h1>
+          </div>
+
+          <div className="flex flex-col place-content-center place-items-center gap-8">
+            <p className="text-justified w-[35rem] xl:text-2xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              architecto? Commodi labore dicta blanditiis similique totam sit
+              culpa veniam possimus!
+            </p>
+            <input
+              type="text"
+              placeholder="Name"
+              className="w-[35rem] h-16 rounded-xl border-2 border-black xl:text-2xl p-2"
+            />
+            <button
+              className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+              onClick={handleContinueClick}
+            >
+              <span className="text-center text-xl lg:text-2xl">Continue</span>
+            </button>
+          </div>
         </div>
       )}
     </div>
