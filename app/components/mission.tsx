@@ -33,36 +33,30 @@ function Mission() {
           <div className="h-[45rem] absolute grid grid-rows-3 place-content-center place-items-center gap-24 text-center font-medium">
             <div>
               <li className="h-16 w-56">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores, saepe!
+                Connect passionate volunteers with meaningful NGO opportunities to foster impactful change.
               </li>
             </div>
             <div className="flex flex-col gap-36 place-content-center place-items-center">
               <div className="flex gap-96">
                 <li className="h-16 w-44">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Voluptas, ullam?
+                  Bridge the gap between enthusiastic volunteers and NGOs in need of dedicated support.
                 </li>
                 <li className="h-16 w-44">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab,
-                  temporibus!
+                  Facilitate meaningful collaborations that drive social change and community development.
                 </li>
               </div>
               <div className="flex gap-72">
                 <li className="h-16 w-44">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Porro, accusamus?
+                  Support community growth by linking volunteers with NGOs focused on various social causes.
                 </li>
                 <li className="h-16 w-44 ml-9">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Modi, consequatur!
+                  Enhance personal and professional growth through enriching volunteer experiences.
                 </li>
               </div>
             </div>
             <div>
               <li className="h-16 w-44">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                veritatis!
+                Build a global network of dedicated volunteers and NGOs to promote a culture of giving.
               </li>
             </div>
           </div>
