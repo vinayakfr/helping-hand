@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Navbar />
       <div className="py-8">
-      <h1 className="text-center text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-900">
+      <h1 className="text-center text-5xl md:text-6xl lg:text-7xl xl:text-[9.2rem] font-bold text-gray-900">
         Welcome!
       </h1>
       <p className="text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-700 px-4 mt-4">
@@ -45,8 +45,8 @@ export default function Home() {
             Creating a <a className="underline italic font-thin">bridge</a>{" "}
             between good hearts
           </h1>
-          <div className="flex justify-between items-center w-full pt-10 lg:px-10">
-            <div className="flex flex-col gap-5">
+          <div className="flex justify-between items-center w-full  lg:px-10">
+            <div className="flex flex-col gap-7">
               <h1 className="text-sm lg:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem]  bg-white text-black rounded-r-full p-5 lg:p-4">
                 We provide volunteers a user-friendly platform for personalized NGO matching 
                 and offer NGOs efficient recruitment tools to reach dedicated volunteers, 
