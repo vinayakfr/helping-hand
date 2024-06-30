@@ -66,11 +66,11 @@ function VolunteerReg() {
       )}
 
       {step === 2 && (
-        <div className="flex flex-col gap-5 place-content-center place-items-center px-3 xl:px-10 py-10">
-          <h1 className="text-center text-5xl xl:text-6xl font-bold">
+        <div className="flex flex-col gap-5 place-content-center place-items-center px-3 xl:px-10 pt-4 lg:py-10">
+          <h1 className="text-center text-5xl lg:text-6xl font-bold leading-[3.5rem]">
             Let&apos;s start by creating your profile
           </h1>
-          <p className="text-center text-lg xl:text-3xl font-light">
+          <p className="text-center text-xl xl:text-3xl font-light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
             voluptas nesciunt nostrum in, harum exercitationem?
           </p>
@@ -118,17 +118,25 @@ function VolunteerReg() {
               />
             </div>
           </div>
-          <button
-            className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
-            onClick={handleContinueClick}
-          >
-            <span className="text-center text-xl lg:text-2xl">Continue</span>
-          </button>
+          <div className="flex justify-between w-full gap-5 px-10">
+            <button
+              className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+              onClick={handleContinueClick}
+            >
+              <span className="text-center text-xl lg:text-2xl">Go back</span>
+            </button>
+            <button
+              className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+              onClick={handleContinueClick}
+            >
+              <span className="text-center text-xl lg:text-2xl">Continue</span>
+            </button>
+          </div>
         </div>
       )}
 
       {step === 3 && (
-        <div className="flex flex-col gap-3 place-content-center place-items-center py-10">
+        <div className="flex flex-col gap-3 place-content-center place-items-center py-2 lg:py-10">
           <h1 className="text-center font-bold text-6xl xl:text-8xl px-2 xl:px-0">
             Tell us your story
           </h1>
@@ -138,7 +146,7 @@ function VolunteerReg() {
             sit perspiciatis dolorum repellendus veritatis eveniet, neque illum
             tenetur quaerat aliquid dolorem.
           </p>
-          <div className="flex flex-col lg:flex-row w-full justify-between place-content-center place-items-center xl:px-24 py-5">
+          <div className="flex flex-col lg:flex-row w-full justify-between place-content-center place-items-center xl:px-24 lg:py-5">
             <div className="hidden lg:block">
               <div className="flex flex-col gap-4 place-content-center place-items-start xl:text-3xl font-thin italic ">
                 <li>Why did you start volunteering?</li>
@@ -151,80 +159,95 @@ function VolunteerReg() {
             <textarea
               name="story"
               id="story"
-              className="w-[95%] h-[20rem] xl:h-[25rem] xl:w-[40rem] rounded-xl border-4 border-black p-3 xl:text-xl"
+              className="w-[95%] h-[20rem] xl:h-[25rem] xl:w-[40rem] rounded-xl border-4 border-black p-3 text-lg xl:text-xl"
               placeholder="I started volunteering because..."
             />
           </div>
-          <button
-            className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black "
-            onClick={handleContinueClick}
-          >
-            <span className="text-center text-lg xl:text-2xl">Continue</span>
-          </button>
+          <div className="flex justify-between w-full gap-5 px-10">
+            <button
+              className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+              onClick={handleContinueClick}
+            >
+              <span className="text-center text-xl lg:text-2xl">Go back</span>
+            </button>
+            <button
+              className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+              onClick={handleContinueClick}
+            >
+              <span className="text-center text-xl lg:text-2xl">Continue</span>
+            </button>
+          </div>
         </div>
       )}
 
       {step === 4 && (
-        <div className="py-10">
-          <h1 className="text-center font-bold text-6xl xl:text-8xl">
+        <div className="py-4 lg:py-10">
+          <h1 className="text-center font-bold text-6xl xl:text-8xl px-2">
             Time to show-off
           </h1>
-          <p className="text-center font-thin text-2xl xl:text-4xl py-5">
+          <p className="text-center font-thin text-2xl xl:text-4xl px-4 py-5">
             We know that you have a lot to offer to the society. But if you were
             to pick your top three...what will they be?
           </p>
-          <div className="grid grid-rows-5 grid-cols-3 xl:grid-rows-3 xl:grid-cols-5 gap-x-4 gap-y-2 place-content-center place-items-center px-2 xl:px-10 xl:py-10">
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+          <div className="grid grid-rows-5 grid-cols-3 xl:grid-rows-3 xl:grid-cols-5 gap-x-4 gap-y-2 place-content-center place-items-center px-2 xl:px-10 lg:py-10">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
+            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
               Skill
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
               Skill
             </button>
           </div>
-          <div className="flex place-content-end place-items-center xl:px-20 pt-5">
-            <button className="h-14 w-28 xl:h-16 xl:w-36 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black">
-              <a href="" className="text-center text-xl xl:text-2xl">
-                Continue
-              </a>
+          <div className="flex justify-between w-full gap-5 px-10 py-5">
+            <button
+              className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+              onClick={handleContinueClick}
+            >
+              <span className="text-center text-xl lg:text-2xl">Go back</span>
+            </button>
+            <button
+              className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+              onClick={handleContinueClick}
+            >
+              <span className="text-center text-xl lg:text-2xl">Continue</span>
             </button>
           </div>
         </div>
