@@ -10,15 +10,15 @@ function Join() {
         </h1>
         <div className="flex flex-col xl:flex xl:flex-row justify-between xl:place-items-center py-10">
           <div className="flex flex-col gap-2 xl:px-10">
-            <p className="xl:text-3xl px-10">
+            <p className="text-lg xl:text-3xl px-10">
               If you are looking for places where you can use your good-will and
               resources that can touch someone&apos;s heart
             </p>
-            <p className="xl:text-3xl px-10">
+            <p className="text-lg xl:text-3xl px-10">
               Or if you are an up-and-coming organisation sought to fight the
               social evils or help the kids in need
             </p>
-            <p className="xl:text-3xl px-10">
+            <p className="text-lg xl:text-3xl px-10">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
@@ -49,11 +49,9 @@ function Join() {
                 </span>
               </button>
             </a>
-            <a href="/organisation-registration" className="lg:hidden">
+            <a href="/volunteer-registration" className="lg:hidden">
               <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-100 text-white hover:text-black xl:text-2xl hover:shadow-xl relative">
-                <span className="text-2xl text-white xl:text-2xl">
-                  Organisation
-                </span>
+                <span className="text-2xl">Organisation</span>
               </button>
             </a>
           </div>

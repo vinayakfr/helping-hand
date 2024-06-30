@@ -5,35 +5,35 @@ function Mission() {
     <div>
       <div className="lg:hidden">
         <div className="bg-black w-full h-[47.5rem] md:h-[55rem] flex place-content-end place-items-center">
-          <div className="bg-white w-[92%] h-[41rem] md:w-[60%] md:h-[52.5rem]  rounded-l-full flex place-content-end place-items-center">
+          <div className="bg-white w-[92%] h-[45rem] md:w-[60%] md:h-[52.5rem]  rounded-l-full flex place-content-end place-items-center">
             <div className="absolute h-[40rem] w-full flex place-content-end place-items-center">
-              <div className="grid gird-rows-3 grid-cols-3 text-n place-items-center pl-16 md:pl-[22.5rem] md:px- text-[0.7rem] text-center">
-                <div className="flex flex-col gap-8 md:gap-20">
-                  <li className="font-medium">
+              <div className="grid gird-rows-3 grid-cols-3 place-items-center pl-16 md:pl-[22.5rem] text-[0.7rem] text-center">
+                <div className="flex flex-col gap-14 md:gap-20">
+                  <li className="font-bold w-36">
                     Connect passionate volunteers with meaningful NGO
                     opportunities to foster impactful change.
                   </li>
-                  <li className="font-medium">
+                  <li className="font-bold">
                     Bridge the gap between enthusiastic volunteers and NGOs in
                     need of dedicated support.
                   </li>
                 </div>
-                <div className="flex flex-col gap-60 md:gap-96">
-                  <li className="font-medium">
+                <div className="flex flex-col gap-72 md:gap-96">
+                  <li className="font-bold w-36">
                     Facilitate meaningful collaborations that drive social
                     change and community development.
                   </li>
-                  <li className="font-medium">
+                  <li className="font-bold">
                     Support community growth by linking volunteers with NGOs
                     focused on various social causes.
                   </li>
                 </div>
-                <div className="flex flex-col gap-96 md:gap-[37.5rem]">
-                  <li className="font-medium">
+                <div className="flex flex-col gap-[30rem] md:gap-[37.5rem]">
+                  <li className="font-bold">
                     Enhance personal and professional growth through enriching
                     volunteer experiences.
                   </li>
-                  <li className="font-medium">
+                  <li className="font-bold">
                     Build a global network of dedicated volunteers and NGOs to
                     promote a culture of giving.
                   </li>
@@ -59,7 +59,7 @@ function Mission() {
           </div>
         </div> */}
         <div className="md:hidden">
-          <div className="flex flex-col place-content-center place-items-center gap-6 bg-black w-full relative">
+          <div className="flex flex-col place-content-center place-items-center gap-6 bg-black w-full relative pt-10">
             <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl"></div>
             <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl"></div>
             <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl"></div>

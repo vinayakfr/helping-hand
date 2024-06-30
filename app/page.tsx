@@ -6,16 +6,16 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <div className="py-8">
-        <h1 className="text-center text-5xl md:text-6xl lg:text-7xl xl:text-[9.2rem] font-bold text-gray-900">
+      <div className="py-2">
+        <h1 className="text-center text-7xl xl:text-[9.2rem] font-bold text-gray-900">
           Welcome!
         </h1>
-        <p className="text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-700 px-4 mt-4">
+        <p className="text-center text-2xl lg:text-3xl xl:text-4xl text-gray-700 px-4 mt-4">
           <span className="font-medium">
             Still looking to fill the volunteering section of your resume?
           </span>
         </p>
-        <p className="text-center text-lg lg:text-xl xl:text-2xl text-gray-600 px-4 mt-4">
+        <p className="text-center text-xl lg:text-xl xl:text-2xl text-gray-600 px-6 mt-4">
           Don&apos;t worry,{" "}
           <span className="font-semibold">we&apos;ve got you covered.</span>{" "}
           We&apos;ll help you find the{" "}
@@ -23,13 +23,13 @@ export default function Home() {
           skills and interests.
         </p>
         <div className="flex flex-col gap-3 lg:gap-4 xl:gap-5 place-content-center place-items-center py-5 lg:py-3 xl:pt-8">
-          <button className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
-            <a href="" className="text-center text-lg xl:text-2xl">
+          <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
+            <a href="" className="text-center text-xl xl:text-2xl">
               About Us
             </a>
           </button>
-          <button className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black hover:shadow-md hover:shadow-black lg:duration-300">
-            <a href="" className="text-center text-lg xl:text-2xl">
+          <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
+            <a href="" className="text-center text-xl xl:text-2xl">
               Join Us
             </a>
           </button>
