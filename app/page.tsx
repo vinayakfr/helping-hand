@@ -40,29 +40,29 @@ export default function Home() {
           className="w-full object-cover select-none"
         />
 
-        <div className="bg-black text-white relative">
-          <h1 className="text-center px-2 text-white font-light text-4xl lg:text-6xl xl:text-8xl xl:-translate-y-20">
+        <div className="bg-black text-white lg:pb-20">
+          <h1 className="text-center px-2 text-white font-light text-4xl md:text-5xl lg:text-6xl xl:text-8xl xl:-translate-y-20">
             Creating a <a className="underline italic font-thin">bridge</a>{" "}
             between good hearts
           </h1>
           <div className="flex justify-between items-center w-full pt-10 lg:px-10">
             <div className="flex flex-col gap-7">
-              <h1 className="text-sm lg:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem]  bg-white text-black rounded-r-full p-5 lg:p-4">
+              <h1 className="text-sm md:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem]  bg-white text-black rounded-r-full p-5 lg:p-4">
                 We provide volunteers a user-friendly platform for personalized NGO matching 
                 and offer NGOs efficient recruitment tools to reach dedicated volunteers, 
                 optimizing their impact on communities and causes.
               </h1>
-              <h1 className="text-sm lg:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem] bg-white text-black rounded-r-full p-7 lg:p-4 hidden lg:block">
+              <h1 className="text-sm md:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem] bg-white text-black rounded-r-full p-5 lg:p-4 hidden lg:block">
                 Our goal is to simplify volunteer-NGO connections worldwide, 
                 empowering individuals to find and engage with NGOs aligned with their values, 
                 amplifying impact through meaningful collaboration.
               </h1>
-              <h1 className="text-sm lg:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem] bg-white text-black rounded-l-full p-7 lg:p-4 lg:hidden">
+              <h1 className="text-sm md:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem] bg-white text-black rounded-l-full p-5 lg:p-4 lg:hidden">
                 Our goal is to simplify volunteer-NGO connections worldwide, 
                 empowering individuals to find and engage with NGOs aligned with their values, 
                 amplifying impact through meaningful collaboration.
               </h1>
-              <h1 className="text-sm lg:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem] bg-white text-black rounded-r-full p-5 lg:p-4">
+              <h1 className="text-sm md:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem] bg-white text-black rounded-r-full p-5 lg:p-4">
                 We provide volunteers a user-friendly platform for personalized NGO matching 
                 and offer NGOs efficient recruitment tools to reach dedicated volunteers, 
                 optimizing their impact on communities and causes.
