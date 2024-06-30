@@ -5,10 +5,10 @@ function Mission() {
     <div>
       <div className="lg:hidden">
         <div className="bg-black w-full h-[47.5rem] flex place-content-end place-items-center">
-          <div className="bg-white w-[92%] h-[37.5rem] rounded-l-full flex place-content-end place-items-center">
+          <div className="bg-white w-[92%] h-[41rem] rounded-l-full flex place-content-end place-items-center">
             <div className="absolute h-[40rem] w-full flex place-content-end place-items-center">
-              <div className="grid gird-rows-3 grid-cols-3 text-rose-500 place-items-center pl-12 pr-">
-                <div className="flex flex-col gap-5">
+              <div className="grid gird-rows-3 grid-cols-3 text-rose-500 place-items-center pl-16">
+                <div className="flex flex-col gap-12">
                   <li>Lorem ipsum dolor sit amet.</li>
                   <li>Lorem ipsum dolor sit amet.</li>
                 </div>
@@ -22,8 +22,8 @@ function Mission() {
                 </div>
               </div>
             </div>
-            <div className="bg-black w-[43%] md:w-[50%] h-[17.5rem] outline-2 outline-dotted outline-black rounded-l-full flex place-content-center place-items-center">
-              <h1 className="text-white">OUR MISSION</h1>
+            <div className="bg-black w-[43%] md:w-[50%] h-[17.5rem] outline-2 outline-dotted outline-black rounded-l-full flex place-content-end place-items-center">
+              <h1 className="text-white font-bold text-2xl text-end px-4">OUR MISSION</h1>
             </div>
           </div>
         </div>
