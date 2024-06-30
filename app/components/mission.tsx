@@ -9,42 +9,60 @@ function Mission() {
             <div className="absolute h-[40rem] w-full flex place-content-end place-items-center">
               <div className="grid gird-rows-3 grid-cols-3 text-n place-items-center pl-16 md:pl-[22.5rem] md:px- text-[0.7rem] text-center">
                 <div className="flex flex-col gap-8 md:gap-20">
-                  <li>
+                  <li className="font-medium">
                     Connect passionate volunteers with meaningful NGO
                     opportunities to foster impactful change.
                   </li>
-                  <li>
+                  <li className="font-medium">
                     Bridge the gap between enthusiastic volunteers and NGOs in
                     need of dedicated support.
                   </li>
                 </div>
                 <div className="flex flex-col gap-60 md:gap-96">
-                  <li>
+                  <li className="font-medium">
                     Facilitate meaningful collaborations that drive social
                     change and community development.
                   </li>
-                  <li>
+                  <li className="font-medium">
                     Support community growth by linking volunteers with NGOs
                     focused on various social causes.
                   </li>
                 </div>
-                <div className="flex flex-col gap-96  md:gap-[37.5rem]">
-                  <li>
+                <div className="flex flex-col gap-96 md:gap-[37.5rem]">
+                  <li className="font-medium">
                     Enhance personal and professional growth through enriching
                     volunteer experiences.
                   </li>
-                  <li>
+                  <li className="font-medium">
                     Build a global network of dedicated volunteers and NGOs to
                     promote a culture of giving.
                   </li>
                 </div>
               </div>
             </div>
-            <div className="bg-black w-[43%] h-[17.5rem] md:w-[50%] md:h-[25rem] outline-2 outline-dotted outline-black rounded-l-full flex place-content-end place-items-center">
+            <div className="bg-black w-[43%] h-[18rem] md:w-[50%] md:h-[25rem] outline-2 outline-dashed outline-black outline-offset-8 rounded-l-full flex place-content-end place-items-center">
               <h1 className="text-white font-bold text-2xl text-end px-4">
                 OUR MISSION
               </h1>
             </div>
+          </div>
+        </div>
+        {/* <div className="relative bg-black w-full grid grid-rows-3 grid-cols-1 gap-y-8 place-content-center place-items-center">
+          <div className="flex justify-between place-content-center place-items-center gap-12">
+            <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[9rem] h-[9rem] rounded-full"></div>
+            <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[9rem] h-[9rem] rounded-full"></div>
+          </div>
+          <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[9rem] h-[9rem] rounded-full"></div>
+          <div className="flex justify-between place-content-center place-items-center gap-12">
+            <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[9rem] h-[9rem] rounded-full"></div>
+            <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[9rem] h-[9rem] rounded-full"></div>
+          </div>
+        </div> */}
+        <div className="md:hidden">
+          <div className="flex flex-col place-content-center place-items-center gap-6 bg-black w-full relative">
+            <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl"></div>
+            <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl"></div>
+            <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl"></div>
           </div>
         </div>
       </div>
