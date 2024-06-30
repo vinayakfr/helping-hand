@@ -16,11 +16,11 @@ function OrganisationReg() {
       {step === 1 && (
         <div>
           <div className="flex flex-col">
-            <h1 className="text-center font-bold xl:text-8xl">
+            <h1 className="text-center font-bold text-5xl lg:text-7xl xl:text-8xl">
               Organisations Registration
             </h1>
-            <div className="grid grid-cols-3 grid-rows-2 place-content-center place-items-center xl:h-[20rem] xl:pt-56">
-              <div className="flex flex-col gap-10 w-[20rem] xl:text-lg">
+            <div className="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 place-content-center place-items-center xl:h-[20rem] pt-8 xl:pt-56 px-5">
+              <div className="flex flex-col gap-5 xl:gap-10 xl:w-[20rem] xl:text-lg text-center xl:text-left">
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Cupiditate obcaecati facere, consequatur optio doloremque
@@ -34,11 +34,11 @@ function OrganisationReg() {
                   debitis, error nostrum unde reiciendis sit.
                 </p>
               </div>
-              <div className="flex justify-center -space-x-14">
-                <div className="mix-blend-multiply xl:w-[20rem] xl:h-[20rem] rounded-full bg-blue-400"></div>
-                <div className="mix-blend-multiply xl:w-[20rem] xl:h-[20rem] rounded-full bg-pink-400"></div>
+              <div className="flex place-content-center place-items-center -space-x-14">
+                <div className="mix-blend-multiply w-[12rem] h-[12rem] xl:w-[20rem] xl:h-[20rem] rounded-full bg-blue-400"></div>
+                <div className="mix-blend-multiply w-[12rem] h-[12rem] xl:w-[20rem] xl:h-[20rem] rounded-full bg-pink-400"></div>
               </div>
-              <div className="flex flex-col gap-10 w-[20rem] xl:text-lg">
+              <div className="flex flex-col gap-5 xl:gap-10 xl:w-[20rem] xl:text-lg text-center xl:text-right">
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Cupiditate obcaecati facere, consequatur optio doloremque
@@ -53,7 +53,7 @@ function OrganisationReg() {
                 </p>
               </div>
             </div>
-            <div className="flex place-content-center place-items-center xl:pt-48">
+            <div className="flex place-content-center place-items-center pt-5 xl:pt-48">
               <a href="">
                 <button
                   className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black "
