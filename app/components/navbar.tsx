@@ -4,7 +4,7 @@ import { IoIosSearch } from "react-icons/io";
 export default function Navbar() {
   return (
     <div className="flex place-content-center">
-      <div className="h-10 lg:h-12 xl:h-[4rem] 2xl:h-28 w-[95%] bg-black flex justify-between place-items-center rounded-l-full rounded-r-full p-4 my-2 2xl:p-8">
+      <div className="h-12 lg:h-14 xl:h-[4.5rem] 2xl:h-28 w-[95%] bg-black flex justify-between place-items-center rounded-l-full rounded-r-full p-4 my-2 2xl:p-8">
         <a href="/" className="font-bold xl:text-3xl 2xl:text-5xl text-white">
           HelpingHands
         </a>
@@ -18,9 +18,6 @@ export default function Navbar() {
             </a>
             <a href="/" className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline">
               Home
-            </a>
-            <a href="" className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline">
-              Inbox
             </a>
             <a href="" className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline">
               About Us
