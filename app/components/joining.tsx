@@ -49,7 +49,7 @@ function Join() {
                 </span>
               </button>
             </a>
-            <a href="/volunteer-registration" className="lg:hidden">
+            <a href="/organisation-registration" className="lg:hidden">
               <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-100 text-white hover:text-black xl:text-2xl hover:shadow-xl relative">
                 <span className="text-2xl">Organisation</span>
               </button>
