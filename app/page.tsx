@@ -17,24 +17,24 @@ export default function Home() {
         Don&apos;t worry, <span className="font-semibold">we&apos;ve got you covered.</span> We&apos;ll help you find the <span className="underline">perfect opportunity</span> that suits your skills and interests.
       </p>
         <div className="flex flex-col gap-3 lg:gap-4 xl:gap-5 place-content-center place-items-center py-5 lg:py-3 xl:pt-8">
-          <button className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black duration-300">
-            <a href="" className="text-center md:text-lg xl:text-2xl">
+          <button className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
+            <a href="" className="text-center text-lg xl:text-2xl">
               About Us
             </a>
           </button>
-          <button className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black hover:shadow-md hover:shadow-black duration-300">
-            <a href="" className="text-center md:text-lg xl:text-2xl">
+          <button className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black hover:shadow-md hover:shadow-black lg:duration-300">
+            <a href="" className="text-center text-lg xl:text-2xl">
               Join Us
             </a>
           </button>
         </div>
-        <p className="text-center pt-3 text-sm md:text-[1rem] xl:text-xl">
+        <p className="text-center pt- text-lg xl:text-xl">
           Already a member?{" "}
           <a href="" className="underline hover:italic">
             Log in
           </a>
         </p>
-        <p className="text-center xl:text-3xl xl:py-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque pariatur hic repellendus perspiciatis. Voluptates eaque at consequuntur ducimus ipsum assumenda.</p>
+        <p className="text-center text-xl xl:text-3xl xl:py-6 pt-3 px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque pariatur hic repellendus perspiciatis. Voluptates eaque at consequuntur ducimus ipsum assumenda.</p>
         <img
           src="asset2.png"
           alt=""
