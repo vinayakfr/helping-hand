@@ -4,7 +4,7 @@ function Join() {
   return (
     <div>
       <div>
-        <h1 className="text-center font-bold text-5xl xl:text-8xl xl:px-64 xl:py-10">
+        <h1 className="text-center font-bold text-5xl xl:text-8xl px-2 xl:px-64 xl:py-10">
           Become a part of the{" "}
           <span className="font-thin italic">community</span>
         </h1>
@@ -50,8 +50,10 @@ function Join() {
               </button>
             </a>
             <a href="/organisation-registration" className="lg:hidden">
-              <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-100 hover:text-black relative">
-                <span className="text-2xl text-white xl:text-2xl">Organisation</span>
+              <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-100 text-white hover:text-black xl:text-2xl hover:shadow-xl relative">
+                <span className="text-2xl text-white xl:text-2xl">
+                  Organisation
+                </span>
               </button>
             </a>
           </div>
