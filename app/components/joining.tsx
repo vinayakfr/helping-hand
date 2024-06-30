@@ -34,7 +34,7 @@ function Join() {
               </button>
             </a>
             <a href="/volunteer-registration" className="lg:hidden">
-              <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-500 text-white hover:text-black xl:text-2xl hover:shadow-xl relative">
+              <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-100 text-white hover:text-black xl:text-2xl hover:shadow-xl relative">
                 <span className="text-2xl">Volunteer</span>
               </button>
             </a>
@@ -50,7 +50,7 @@ function Join() {
               </button>
             </a>
             <a href="/organisation-registration" className="lg:hidden">
-              <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-500 hover:text-black relative">
+              <button className="text-center w-40 h-16 rounded-lg bg-black hover:bg-white border-2 hover:border-4 border-white hover:border-black font-thin hover:font-medium duration-100 hover:text-black relative">
                 <span className="text-2xl text-white xl:text-2xl">Organisation</span>
               </button>
             </a>

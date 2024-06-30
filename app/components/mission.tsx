@@ -22,7 +22,7 @@ function Mission() {
                 </div>
               </div>
             </div>
-            <div className="bg-black w-[50%] h-[17.5rem] outline-2 outline-dotted outline-black rounded-l-full flex place-content-center place-items-center">
+            <div className="bg-black w-[43%] md:w-[50%] h-[17.5rem] outline-2 outline-dotted outline-black rounded-l-full flex place-content-center place-items-center">
               <h1 className="text-white">OUR MISSION</h1>
             </div>
           </div>
