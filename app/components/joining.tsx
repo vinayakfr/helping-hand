@@ -4,9 +4,9 @@ function Join() {
   return (
     <div>
       <div>
-        <h1 className="text-center font-bold text-4xl xl:text-8xl xl:px-64 xl:py-10">
+        <h1 className="text-center font-bold text-5xl xl:text-8xl xl:px-64 xl:py-10">
           Become a part of the{" "}
-          <span className="font-thin underline italic">community</span>
+          <span className="font-thin italic">community</span>
         </h1>
         <div className="flex flex-col xl:flex xl:flex-row justify-between xl:place-items-center py-10">
           <div className="flex flex-col gap-2 xl:px-10">
