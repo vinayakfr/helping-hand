@@ -19,8 +19,8 @@ function OrganisationReg() {
             <h1 className="text-center font-bold text-5xl xl:text-8xl">
               Organisations Registration
             </h1>
-            <div className="grid grid-rows-3 grod-cols-1 xl:grid-cols-3 xl:grid-rows-2 place-content-center place-items-center xl:h-[20rem] xl:pt-56 pt-5 lg:py-0">
-              <div className="flex flex-col gap-5 lg:gap-10 w-[20rem] xl:text-lg text-center lg:text-left">
+            <div className="grid grid-rows-3 grod-cols-1 lg:grid-cols-3 lg:grid-rows-2 place-content-center place-items-center xl:h-[20rem] xl:pt-56 pt-5 lg:py-0">
+              <div className="flex flex-col gap-5 lg:gap-10 w-[20rem] md:w-[30rem] xl:text-lg text-center lg:text-left">
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Cupiditate obcaecati facere, consequatur optio doloremque
@@ -38,7 +38,7 @@ function OrganisationReg() {
                 <div className="mix-blend-multiply w-[12.5rem] h-[12.5rem] xl:w-[20rem] xl:h-[20rem] rounded-full bg-blue-400"></div>
                 <div className="mix-blend-multiply w-[12.5rem] h-[12.5rem] xl:w-[20rem] xl:h-[20rem] rounded-full bg-pink-400"></div>
               </div>
-              <div className="flex flex-col gap-5 lg:gap-10 w-[20rem] xl:text-lg text-center lg:text-right">
+              <div className="flex flex-col gap-5 lg:gap-10 w-[20rem] md:w-[30rem] xl:text-lg text-center lg:text-right">
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Cupiditate obcaecati facere, consequatur optio doloremque
