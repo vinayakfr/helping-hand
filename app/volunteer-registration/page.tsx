@@ -51,7 +51,7 @@ function VolunteerReg() {
             </div>
           </div>
           <div className="lg:hidden">
-            <div className="flex place-content-end place-items-end">
+            <div className="flex place-content-end place-items-end px-5">
               <button
                 className="h-14 w-28 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
                 onClick={handleContinueClick}
@@ -66,7 +66,7 @@ function VolunteerReg() {
       )}
 
       {step === 2 && (
-        <div className="flex flex-col gap-5 place-content-center place-items-center px-3 xl:px-10 pt-4 lg:py-10">
+        <div className="flex flex-col gap-5 place-content-center place-items-center px-3 xl:px-10 pt-2 lg:py-10">
           <h1 className="text-center text-5xl lg:text-6xl font-bold leading-[3.5rem]">
             Let&apos;s start by creating your profile
           </h1>
@@ -136,7 +136,7 @@ function VolunteerReg() {
       )}
 
       {step === 3 && (
-        <div className="flex flex-col gap-3 place-content-center place-items-center py-2 lg:py-10">
+        <div className="flex flex-col gap-3 place-content-center place-items-center pt-2 lg:py-10">
           <h1 className="text-center font-bold text-6xl xl:text-8xl px-2 xl:px-0">
             Tell us your story
           </h1>
@@ -181,7 +181,7 @@ function VolunteerReg() {
       )}
 
       {step === 4 && (
-        <div className="py-4 lg:py-10">
+        <div className="pt-2 lg:py-10">
           <h1 className="text-center font-bold text-6xl xl:text-8xl px-2">
             Time to show-off
           </h1>
