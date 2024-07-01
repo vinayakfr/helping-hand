@@ -60,9 +60,9 @@ function Mission() {
         </div> */}
         <div className="md:hidden">
           <div className="flex flex-col place-content-center place-items-center gap-6 bg-black w-full relative pt-10">
-            <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl"></div>
-            <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl"></div>
-            <div className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl"></div>
+            <img src="asset4.jpeg" alt="" className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl object-cover"/>
+            <img src="asset5.jpg" alt="" className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl object-cover"/>
+            <img src="asset6.jpg" alt="" className="bg-white outline-2 outline-dotted outline-white outline-offset-4 w-[17.5rem] h-[9rem] rounded-xl object-cover"/>
           </div>
         </div>
       </div>
