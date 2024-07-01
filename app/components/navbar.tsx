@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="flex place-content-center">
       <div className="h-12 lg:h-14 xl:h-[4.5rem] 2xl:h-28 w-[95%] bg-black flex justify-between place-items-center rounded-l-full rounded-r-full p-4 my-2 2xl:p-8">
-        <a href="/" className="font-bold xl:text-3xl 2xl:text-5xl text-white">
+        <a href="/" className="font-bold text-xl lg:text-3xl 2xl:text-5xl text-white">
           HelpingHands
         </a>
         <div className="hidden md:block">
