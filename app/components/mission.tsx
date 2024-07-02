@@ -106,7 +106,7 @@ function Mission() {
           </div>
           <div className="bg-white h-[50rem] w-[50rem] rounded-full flex place-content-center place-items-center outline-4 outline-dotted outline-white outline-offset-8">
             <div className="bg-black h-[20rem] w-[20rem] rounded-full flex place-content-center place-items-center outline-dotted outline-4 outline-offset-4">
-              <h1 className="text-center text-white font-medium xl:text-6xl">
+              <h1 className="text-center text-white font-medium lg:text-6xl">
                 Our Mission
               </h1>
             </div>

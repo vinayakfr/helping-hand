@@ -10,6 +10,10 @@ function VolunteerReg() {
     setStep(step + 1);
   };
 
+  const handlePreviousClick = () => {
+    setStep(step - 1);
+  };
+
   return (
     <div>
       <Navbar />
@@ -121,7 +125,7 @@ function VolunteerReg() {
           <div className="flex justify-between w-full gap-5 px-10">
             <button
               className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
-              onClick={handleContinueClick}
+              onClick={handlePreviousClick}
             >
               <span className="text-center text-xl lg:text-2xl">Go back</span>
             </button>
@@ -166,7 +170,7 @@ function VolunteerReg() {
           <div className="flex justify-between w-full gap-5 px-10">
             <button
               className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
-              onClick={handleContinueClick}
+              onClick={handlePreviousClick}
             >
               <span className="text-center text-xl lg:text-2xl">Go back</span>
             </button>
@@ -239,7 +243,7 @@ function VolunteerReg() {
           <div className="flex justify-between w-full gap-5 px-10 py-5">
             <button
               className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
-              onClick={handleContinueClick}
+              onClick={handlePreviousClick}
             >
               <span className="text-center text-xl lg:text-2xl">Go back</span>
             </button>
