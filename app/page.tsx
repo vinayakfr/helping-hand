@@ -40,6 +40,7 @@ export default function Home() {
             Log in
           </a>
         </p>
+        <p className="text-center lg:text-3xl lg:pt-5 lg:px-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur similique dolorum laborum, saepe id ea aperiam ex minus exercitationem sint!</p>
         <p className="text-center text-xl xl:text-3xl xl:py-6 pt-3 px-2">
         </p>
         <img
