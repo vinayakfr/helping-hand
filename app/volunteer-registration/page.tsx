@@ -28,38 +28,24 @@ function VolunteerReg() {
               Volunteers Assemble
             </h1>
             <div className="flex flex-col gap-4 lg:gap-8 p-4 lg:p-[3rem] place-content-start place-items-start">
-              <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
-                <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">Did you know?</h2>
-                
-                <div className="space-y-8">
-                  <div className="flex items-start space-x-4">
-                    <span className="text-4xl text-green-500">❤️</span>
-                    <p className="xl:text-2xl font-light">
-                      Volunteering has been linked to numerous health benefits, including <strong>lower blood pressure</strong>, 
-                      <em>reduced stress levels</em>, and a <strong>longer lifespan</strong>. Engaging in regular volunteer work 
-                      can improve both <em>mental</em> and <em>physical health</em>.
-                    </p>
-                  </div>
-                  
-                  <div className="flex items-start space-x-4">
-                    <span className="text-4xl text-blue-500">🤝</span>
-                    <p className="xl:text-2xl font-light">
-                      Volunteering is a great way to meet new people and build social connections. It brings together 
-                      individuals from <strong>diverse backgrounds</strong>, fostering <em>inclusivity</em> and 
-                      <em>mutual understanding</em>.
-                    </p>
-                  </div>
-                  
-                  <div className="flex items-start space-x-4">
-                    <span className="text-4xl text-yellow-500">😊</span>
-                    <p className="xl:text-2xl font-light">
-                      Helping others can increase feelings of <strong>happiness</strong> and reduce symptoms of 
-                      <em>depression and anxiety</em>. The sense of purpose and fulfillment that comes from volunteering 
-                      can significantly enhance <strong>mental well-being</strong>.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <p className="font-thin lg:text-3xl">
+                Volunteering has been linked to numerous health benefits,
+                including lower blood pressure,reduced stress levels, and a
+                longer lifespan. Engaging in regular volunteer work can improve
+                both mental and physical health.
+              </p>
+              <p className="font-thin lg:text-3xl">
+                Volunteering is a great way to meet new people and build social
+                connections. It brings together individuals from diverse
+                backgrounds, fostering inclusivity and mutual understanding.
+              </p>
+              <p className="font-thin lg:text-3xl">
+                Helping others can increase feelings of happiness and reduce
+                symptoms of depression and anxiety. The sense of purpose and
+                fulfillment that comes from volunteering can significantly
+                enhance mental well-being.
+              </p>
+
               <div className="hidden lg:block">
                 <div className="flex place-content-end place-items-end">
                   <button
@@ -156,17 +142,19 @@ function VolunteerReg() {
       )}
 
       {step === 3 && (
-        <div className="flex flex-col gap-3 place-content-center place-items-center pt-2 lg:py-10">
-          <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
-            <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">Tell Us Your Story</h2>
-            
-            <p className="text-center text-lg xl:text-3xl px-4 xl:px-12 font-serif leading-relaxed text-gray-800 italic">
-              Every volunteer has a unique journey and inspiring story to tell. From the moment you decided to give your time to help others, 
-              you became part of a global community dedicated to making a difference. Perhaps you were inspired by a personal experience 
-              or motivated by a desire to contribute to a cause close to your heart. Whatever your reason, your efforts have undoubtedly 
-              left a positive impact on the lives of many.
+        <div className="flex flex-col gap-3 place-content-center place-items-center pt-2 lg:py5">
+            <h1 className="text-4xl lg:text-6xl font-bold text-center">
+              Tell Us Your Story
+            </h1>
+            <p className="text-center text-lg xl:text-3xl px-4 xl:px-12 leading-relaxed text-gray-800 italic">
+              Every volunteer has a unique journey and inspiring story to tell.
+              From the moment you decided to give your time to help others, you
+              became part of a global community dedicated to making a
+              difference. Perhaps you were inspired by a personal experience or
+              motivated by a desire to contribute to a cause close to your
+              heart. Whatever your reason, your efforts have undoubtedly left a
+              positive impact on the lives of many.
             </p>
-          </div>
           <div className="flex flex-col lg:flex-row w-full justify-between place-content-center place-items-center xl:px-24 lg:py-5">
             <div className="hidden lg:block">
               <div className="flex flex-col gap-4 place-content-center place-items-start xl:text-3xl font-thin italic ">
@@ -211,49 +199,49 @@ function VolunteerReg() {
             to pick your top three...what will they be?
           </p>
           <div className="grid grid-rows-5 grid-cols-3 xl:grid-rows-3 xl:grid-cols-5 gap-x-4 gap-y-2 place-content-center place-items-center px-2 xl:px-10 lg:py-10">
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Team Collaboration
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+              Tutor
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Leadership
-            </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-64 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Communication
-            </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Time Management
-            </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Problem-Solving
-            </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Event Planning
-            </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Fundraising
-            </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
               Public Speaking
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+              Music
+            </button>
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+              English
+            </button>
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+              Problem-Solving
+            </button>
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+              Theatre
+            </button>
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+              Dancing
+            </button>
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+              Foriegn Language
+            </button>
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
               Project Management
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
               Mentorship
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
               Crisis Management
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Technical Support
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+              Computer Skills
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
               Social Media Management
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
               Community Outreach
             </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
+            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
               Conflict Resolution
             </button>
           </div>
@@ -279,7 +267,8 @@ function VolunteerReg() {
             You&apos;re GOATED
           </h1>
           <p className="text-center font-thin text-2xl xl:text-4xl px-4 py-5">
-            Thank you for sharing your story and skills. You can now go back to the homepage or straight to the job portal.
+            Thank you for sharing your story and skills. You can now go back to
+            the homepage or straight to the job portal.
           </p>
           <div className="flex justify-between w-full gap-5 px-10 py-5">
             <button
@@ -288,14 +277,14 @@ function VolunteerReg() {
             >
               <span className="text-center text-xl lg:text-2xl">Home Page</span>
             </button>
-            <button
-              className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
-            >
-              <span className="text-center text-xl lg:text-2xl">Job Portal</span>
+            <button className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black">
+              <span className="text-center text-xl lg:text-2xl">
+                Job Portal
+              </span>
             </button>
           </div>
         </div>
-      )}  
+      )}
     </div>
   );
 }
