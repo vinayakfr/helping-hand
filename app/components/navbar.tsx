@@ -22,7 +22,7 @@ export default function Navbar() {
             <a href="" className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline">
               About Us
             </a>
-            <a href="" className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline">
+            <a href="/profile" className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline">
               Profile
             </a>
           </div>
