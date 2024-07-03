@@ -14,6 +14,10 @@ function VolunteerReg() {
     setStep(step - 1);
   };
 
+  const handleGoHomeClick = () => {
+    window.location.href = "https://thehelpinghands.vercel.app";
+  };
+
   return (
     <div>
       <Navbar />
@@ -24,22 +28,38 @@ function VolunteerReg() {
               Volunteers Assemble
             </h1>
             <div className="flex flex-col gap-4 lg:gap-8 p-4 lg:p-[3rem] place-content-start place-items-start">
-              <p className="xl:text-2xl font-light">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
-                aspernatur totam odio nisi. Accusamus, illum!
-              </p>
-              <p className="xl:text-2xl font-light">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
-                aspernatur totam odio nisi. Accusamus, illum!
-              </p>
-              <p className="xl:text-2xl font-light">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
-                aspernatur totam odio nisi. Accusamus, illum!
-              </p>
-              <p className="xl:text-2xl font-light">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
-                aspernatur totam odio nisi. Accusamus, illum!
-              </p>
+              <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
+                <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">Did you know?</h2>
+                
+                <div className="space-y-8">
+                  <div className="flex items-start space-x-4">
+                    <span className="text-4xl text-green-500">❤️</span>
+                    <p className="xl:text-2xl font-light">
+                      Volunteering has been linked to numerous health benefits, including <strong>lower blood pressure</strong>, 
+                      <em>reduced stress levels</em>, and a <strong>longer lifespan</strong>. Engaging in regular volunteer work 
+                      can improve both <em>mental</em> and <em>physical health</em>.
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-start space-x-4">
+                    <span className="text-4xl text-blue-500">🤝</span>
+                    <p className="xl:text-2xl font-light">
+                      Volunteering is a great way to meet new people and build social connections. It brings together 
+                      individuals from <strong>diverse backgrounds</strong>, fostering <em>inclusivity</em> and 
+                      <em>mutual understanding</em>.
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-start space-x-4">
+                    <span className="text-4xl text-yellow-500">😊</span>
+                    <p className="xl:text-2xl font-light">
+                      Helping others can increase feelings of <strong>happiness</strong> and reduce symptoms of 
+                      <em>depression and anxiety</em>. The sense of purpose and fulfillment that comes from volunteering 
+                      can significantly enhance <strong>mental well-being</strong>.
+                    </p>
+                  </div>
+                </div>
+              </div>
               <div className="hidden lg:block">
                 <div className="flex place-content-end place-items-end">
                   <button
@@ -74,10 +94,6 @@ function VolunteerReg() {
           <h1 className="text-center text-5xl lg:text-6xl font-bold leading-[3.5rem]">
             Let&apos;s start by creating your profile
           </h1>
-          <p className="text-center text-xl xl:text-3xl font-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            voluptas nesciunt nostrum in, harum exercitationem?
-          </p>
           <div className="w-full h-[20rem] xl:h-[25rem] xl:w-[35rem] rounded-xl bg-black flex flex-col gap-6 place-content-start xl:place-content-center xl:place-items-center py-5 px-5">
             <div className="flex flex-col">
               <label
@@ -141,15 +157,16 @@ function VolunteerReg() {
 
       {step === 3 && (
         <div className="flex flex-col gap-3 place-content-center place-items-center pt-2 lg:py-10">
-          <h1 className="text-center font-bold text-6xl xl:text-8xl px-2 xl:px-0">
-            Tell us your story
-          </h1>
-          <p className="text-center font-light text-lg xl:text-3xl px-2 xl:px-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            quos placeat dicta adipisci delectus libero ullam incidunt saepe,
-            sit perspiciatis dolorum repellendus veritatis eveniet, neque illum
-            tenetur quaerat aliquid dolorem.
-          </p>
+          <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
+            <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">Tell Us Your Story</h2>
+            
+            <p className="text-center text-lg xl:text-3xl px-4 xl:px-12 font-serif leading-relaxed text-gray-800 italic">
+              Every volunteer has a unique journey and inspiring story to tell. From the moment you decided to give your time to help others, 
+              you became part of a global community dedicated to making a difference. Perhaps you were inspired by a personal experience 
+              or motivated by a desire to contribute to a cause close to your heart. Whatever your reason, your efforts have undoubtedly 
+              left a positive impact on the lives of many.
+            </p>
+          </div>
           <div className="flex flex-col lg:flex-row w-full justify-between place-content-center place-items-center xl:px-24 lg:py-5">
             <div className="hidden lg:block">
               <div className="flex flex-col gap-4 place-content-center place-items-start xl:text-3xl font-thin italic ">
@@ -195,49 +212,49 @@ function VolunteerReg() {
           </p>
           <div className="grid grid-rows-5 grid-cols-3 xl:grid-rows-3 xl:grid-cols-5 gap-x-4 gap-y-2 place-content-center place-items-center px-2 xl:px-10 lg:py-10">
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Team Collaboration
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Leadership
+            </button>
+            <button className="h-16 w-24 xl:h-20 xl:w-64 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
+              Communication
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Time Management
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Problem-Solving
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Event Planning
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Fundraising
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Public Speaking
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Project Management
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Mentorship
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Crisis Management
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Technical Support
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Social Media Management
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
+              Community Outreach
             </button>
             <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl">
-              Skill
-            </button>
-            <button className="h-16 w-24 xl:h-20 xl:w-48 rounded-xl font-thin text-white bg-black xl:text-3xl">
-              Skill
+              Conflict Resolution
             </button>
           </div>
           <div className="flex justify-between w-full gap-5 px-10 py-5">
@@ -256,6 +273,29 @@ function VolunteerReg() {
           </div>
         </div>
       )}
+      {step === 5 && (
+        <div className="flex flex-col gap-3 place-content-center place-items-center pt-2 lg:py-10">
+          <h1 className="text-center font-bold text-6xl xl:text-8xl px-2">
+            You're GOATED
+          </h1>
+          <p className="text-center font-thin text-2xl xl:text-4xl px-4 py-5">
+            Thank you for sharing your story and skills. You can now go back to the homepage or straight to the job portal.
+          </p>
+          <div className="flex justify-between w-full gap-5 px-10 py-5">
+            <button
+              className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+              onClick={handleGoHomeClick}
+            >
+              <span className="text-center text-xl lg:text-2xl">Home Page</span>
+            </button>
+            <button
+              className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+            >
+              <span className="text-center text-xl lg:text-2xl">Job Portal</span>
+            </button>
+          </div>
+        </div>
+      )}  
     </div>
   );
 }
