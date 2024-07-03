@@ -41,9 +41,6 @@ export default function Home() {
           </a>
         </p>
         <p className="text-center text-xl xl:text-3xl xl:py-6 pt-3 px-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-          pariatur hic repellendus perspiciatis. Voluptates eaque at
-          consequuntur ducimus ipsum assumenda.
         </p>
         <img
           src="asset2.png"
