@@ -276,7 +276,7 @@ function VolunteerReg() {
       {step === 5 && (
         <div className="flex flex-col gap-3 place-content-center place-items-center pt-2 lg:py-10">
           <h1 className="text-center font-bold text-6xl xl:text-8xl px-2">
-            You're GOATED
+            You&apos;re GOATED
           </h1>
           <p className="text-center font-thin text-2xl xl:text-4xl px-4 py-5">
             Thank you for sharing your story and skills. You can now go back to the homepage or straight to the job portal.
