@@ -10,6 +10,10 @@ function OrganisationReg() {
     setStep(step + 1);
   };
 
+  const handlePreviousClick = () => {
+    setStep(step - 1);
+  };
+
   return (
     <div>
       <Navbar />
@@ -133,14 +137,24 @@ function OrganisationReg() {
               ></textarea>
             </div>
           </div>
-          <div className="flex place-content-center place-items-center pt-5 lg:pt-10">
-            <button
-              className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
-              onClick={handleContinueClick}
-            >
-              <span className="text-center text-xl xl:text-2xl">Continue</span>
-            </button>
-          </div>
+          <div className="flex lg:justify-between place-content-center place-items-center gap-5 lg:pt-5">
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handlePreviousClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">
+                  Go Back
+                </span>
+              </button>
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handleContinueClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">
+                  Continue
+                </span>
+              </button>
+            </div>
         </div>
       )}
 
@@ -268,13 +282,22 @@ function OrganisationReg() {
                 </select>
               </div>
             </div>
-
-            <button
-              className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
-              onClick={handleContinueClick}
-            >
-              <span className="text-center text-xl xl:text-2xl">Continue</span>
-            </button>
+            <div className="flex gap-5 lg:gap-16">
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handlePreviousClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">Go Back</span>
+              </button>
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handleContinueClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">
+                  Continue
+                </span>
+              </button>
+            </div>
           </div>
         </div>
       )}
@@ -304,12 +327,22 @@ function OrganisationReg() {
               placeholder="Link3"
               className="w-[20rem] h-14 xl:w-[30rem] xl:h-16 p-2 border-[3px] border-black rounded-xl xl:text-2xl"
             />
-            <button
-              className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
-              onClick={handleContinueClick}
-            >
-              <span className="text-center text-xl xl:text-2xl">Continue</span>
-            </button>
+            <div className="flex gap-5">
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handlePreviousClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">Go Back</span>
+              </button>
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handleContinueClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">
+                  Continue
+                </span>
+              </button>
+            </div>
           </div>
         </div>
       )}
