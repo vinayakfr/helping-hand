@@ -16,13 +16,13 @@ export default function Navbar() {
             <a href="" className="hidden 2xl:block">
               <IoIosSearch size={40} color="white" />
             </a>
-            <a href="/" className="font-light lg:text-3xl 2xl:text-4xl text-white hover:underline hover:underline-offset-4">
+            <a href="/" className="font-light lg:text-[1.6rem] 2xl:text-4xl text-white hover:underline hover:underline-offset-4">
               Home
             </a>
-            <a href="" className="font-light lg:text-3xl 2xl:text-4xl text-white hover:underline hover:underline-offset-4">
+            <a href="" className="font-light lg:text-[1.6rem] 2xl:text-4xl text-white hover:underline hover:underline-offset-4">
               About Us
             </a>
-            <a href="/profile" className="font-light lg:text-3xl 2xl:text-4xl text-white hover:underline hover:underline-offset-4">
+            <a href="/profile" className="font-light lg:text-[1.6rem] 2xl:text-4xl text-white hover:underline hover:underline-offset-4">
               Profile
             </a>
           </div>

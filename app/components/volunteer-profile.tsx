@@ -8,15 +8,18 @@ function VolProfile() {
         alt=""
         className="bg-black w-full h-[12.5rem] lg:h-[20rem] object-cover absolute"
       />
-      <div className="flex lg:gap-3 place-content-center place-items-end px-5 lg:px-10 pt-24 lg:pt-20 absolute">
-        <img
-          src=""
-          alt=""
-          className="w-[6rem] h-[6rem] lg:w-[12.5rem] lg:h-[12.5rem] rounded-full bg-white object-cover"
-        />
-        <h1 className="text-2xl lg:text-5xl font-bold text-white">
-          Vinayak Srivastava
-        </h1>
+      <div className="flex justify-between w-full lg:gap-3 place-content-center place-items-end px-5 lg:px-10 pt-24 lg:pt-24 absolute">
+        <div className="flex place-content-center place-items-end">
+          <img
+            src=""
+            alt=""
+            className="w-[6rem] h-[6rem] lg:w-[12.5rem] lg:h-[12.5rem] rounded-full bg-white object-cover"
+          />
+          <h1 className="text-2xl lg:text-5xl font-bold text-white">
+            Vinayak Srivastava
+          </h1>
+        </div>
+        <button className="bg-white text-black hover:text-white hover:bg-black border-2 border-black hover:border-4 hover:border-white font-medium hover:font-bold lg:w-28 lg:h-16 rounded-r-full rounded-l-full shadow-lg hover:shadow-xl"><span className="text-xl">Connect</span></button>
       </div>
       <div className="pt-[13rem] lg:pt-[22.5rem]">
         <div className="flex flex-col lg:flex-row w-full justify-between px-10 pb-10">
