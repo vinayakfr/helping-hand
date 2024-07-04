@@ -7,8 +7,8 @@ function page() {
   return (
     <div>
       <Navbar />
-       <OrgProfile/>
-       {/* <VolProfile/> */}
+       {/* <OrgProfile/> */}
+       <VolProfile/>
     </div>
   );
 }
