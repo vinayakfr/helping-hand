@@ -10,6 +10,10 @@ function OrganisationReg() {
     setStep(step + 1);
   };
 
+  const handlePreviousClick = () => {
+    setStep(step - 1);
+  };
+
   return (
     <div>
       <Navbar />
@@ -133,25 +137,212 @@ function OrganisationReg() {
               ></textarea>
             </div>
           </div>
-          <div className="flex place-content-center place-items-center pt-5 lg:pt-10">
-            <button
-              className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
-              onClick={handleContinueClick}
-            >
-              <span className="text-center text-xl xl:text-2xl">Continue</span>
-            </button>
-          </div>
+          <div className="flex lg:justify-between place-content-center place-items-center gap-5 lg:pt-5">
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handlePreviousClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">
+                  Go Back
+                </span>
+              </button>
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handleContinueClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">
+                  Continue
+                </span>
+              </button>
+            </div>
         </div>
       )}
 
       {step === 4 && (
-        <div className="py-10">
-          <div className="flex place-content-end place-items-center xl:px-20 pt-5">
-            <button className="h-14 w-28 xl:h-16 xl:w-36 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black">
-              <a href="" className="text-center text-xl xl:text-2xl">
-                Continue
-              </a>
-            </button>
+        <div className="py-2 lg:py-5">
+          <div className="flex flex-col gap-5 place-content-end place-items-center lg:px-10">
+            <h1 className="text-center font-bold text-4xl lg:text-6xl px-3 lg:px-20">
+              A few questions to help us set up your account
+            </h1>
+            <div className="flex flex-col lg:w-[50rem] gap-2 place-content-center place-items-center">
+              <div className="flex flex-col lg:flex-row justify-between w-full place-content-center place-items-start lg:place-items-center">
+                <p className="lg:text-xl">Are you currently hiring?</p>
+                <select
+                  name="question1"
+                  id="question1"
+                  className="lg:text-xl p-2 rounded-r-full rounded-l-full border-2 border-black"
+                >
+                  <option value="yes">yes</option>
+                  <option value="no">no</option>
+                </select>
+              </div>
+              <div className="flex flex-col lg:flex-row justify-between w-full place-content-center place-items-start lg:place-items-center">
+                <p className="lg:text-xl">
+                  What kind of service are you looking for?
+                </p>
+                <select
+                  name="question1"
+                  id="question1"
+                  className="lg:text-xl p-2 rounded-r-full rounded-l-full border-2 border-black"
+                >
+                  <option value="online">online</option>
+                  <option value="offline">offline</option>
+                  <option value="both">both</option>
+                </select>
+              </div>
+              <div className="flex flex-col lg:flex-row justify-between w-full place-content-center place-items-start lg:place-items-center">
+                <p className="lg:text-xl">
+                  Any specific age-group you are looking for?
+                </p>
+                <select
+                  name="question1"
+                  id="question1"
+                  className="lg:text-xl p-2 rounded-r-full rounded-l-full border-2 border-black"
+                >
+                  <option value="yes">yes</option>
+                  <option value="no">no</option>
+                </select>
+              </div>
+              <div className="flex flex-col lg:flex-row justify-between w-full place-content-center place-items-start lg:place-items-center">
+                <p className="lg:text-xl">
+                  Any specific age-group you are looking for?
+                </p>
+                <select
+                  name="question1"
+                  id="question1"
+                  className="lg:text-xl p-2 rounded-r-full rounded-l-full border-2 border-black"
+                >
+                  <option value="yes">yes</option>
+                  <option value="no">no</option>
+                </select>
+              </div>
+              <div className="flex flex-col lg:flex-row justify-between w-full place-content-center place-items-start lg:place-items-center">
+                <p className="lg:text-xl">
+                  Any specific age-group you are looking for?
+                </p>
+                <select
+                  name="question1"
+                  id="question1"
+                  className="lg:text-xl p-2 rounded-r-full rounded-l-full border-2 border-black"
+                >
+                  <option value="yes">yes</option>
+                  <option value="no">no</option>
+                </select>
+              </div>
+              <div className="flex flex-col lg:flex-row justify-between w-full place-content-center place-items-start lg:place-items-center">
+                <p className="lg:text-xl">
+                  Any specific age-group you are looking for?
+                </p>
+                <select
+                  name="question1"
+                  id="question1"
+                  className="lg:text-xl p-2 rounded-r-full rounded-l-full border-2 border-black"
+                >
+                  <option value="yes">yes</option>
+                  <option value="no">no</option>
+                </select>
+              </div>
+              <div className="flex flex-col lg:flex-row justify-between w-full place-content-center place-items-start lg:place-items-center">
+                <p className="lg:text-xl">
+                  Any specific age-group you are looking for?
+                </p>
+                <select
+                  name="question1"
+                  id="question1"
+                  className="lg:text-xl p-2 rounded-r-full rounded-l-full border-2 border-black"
+                >
+                  <option value="yes">yes</option>
+                  <option value="no">no</option>
+                </select>
+              </div>
+              <div className="flex flex-col lg:flex-row justify-between w-full place-content-center place-items-start lg:place-items-center">
+                <p className="lg:text-xl">
+                  Any specific age-group you are looking for?
+                </p>
+                <select
+                  name="question1"
+                  id="question1"
+                  className="lg:text-xl p-2 rounded-r-full rounded-l-full border-2 border-black"
+                >
+                  <option value="yes">yes</option>
+                  <option value="no">no</option>
+                </select>
+              </div>
+              <div className="flex flex-col lg:flex-row justify-between w-full place-content-center place-items-start lg:place-items-center">
+                <p className="lg:text-xl">
+                  Any specific age-group you are looking for?
+                </p>
+                <select
+                  name="question1"
+                  id="question1"
+                  className="lg:text-xl p-2 rounded-r-full rounded-l-full border-2 border-black"
+                >
+                  <option value="yes">yes</option>
+                  <option value="no">no</option>
+                </select>
+              </div>
+            </div>
+            <div className="flex gap-5 lg:gap-16">
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handlePreviousClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">Go Back</span>
+              </button>
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handleContinueClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">
+                  Continue
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {step === 5 && (
+        <div>
+          <h1 className="text-center text-5xl lg:text-7xl font-bold px-2">
+            Let&apos;s increase your connecitivity
+          </h1>
+          <p className="text-center text-2xl pt-2">
+            Add links to your social-media platforms or webisites for people to
+            know about your organisation
+          </p>
+          <div className="flex flex-col gap-3 place-content-center place-items-center py-5">
+            <input
+              type="text"
+              placeholder="Link1"
+              className="w-[20rem] h-14 xl:w-[30rem] xl:h-16 p-2 border-[3px] border-black rounded-xl xl:text-2xl"
+            />
+            <input
+              type="text"
+              placeholder="Link2"
+              className="w-[20rem] h-14 xl:w-[30rem] xl:h-16 p-2 border-[3px] border-black rounded-xl xl:text-2xl"
+            />
+            <input
+              type="text"
+              placeholder="Link3"
+              className="w-[20rem] h-14 xl:w-[30rem] xl:h-16 p-2 border-[3px] border-black rounded-xl xl:text-2xl"
+            />
+            <div className="flex gap-5">
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handlePreviousClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">Go Back</span>
+              </button>
+              <button
+                className="h-16 w-32 xl:h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
+                onClick={handleContinueClick}
+              >
+                <span className="text-center text-xl xl:text-2xl">
+                  Continue
+                </span>
+              </button>
+            </div>
           </div>
         </div>
       )}
