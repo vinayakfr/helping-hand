@@ -305,11 +305,11 @@ function OrganisationReg() {
       {step === 5 && (
         <div>
           <h1 className="text-center text-5xl lg:text-7xl font-bold px-2">
-            Let's increase your connecitivity
+            Let&apos;s increase your connecitivity
           </h1>
           <p className="text-center text-2xl pt-2">
             Add links to your social-media platforms or webisites for people to
-            know about your organisation.s
+            know about your organisation
           </p>
           <div className="flex flex-col gap-3 place-content-center place-items-center py-5">
             <input
