@@ -10,7 +10,7 @@ function page() {
         alt=""
         className="bg-black w-full h-[12.5rem] lg:h-[20rem] object-cover absolute"
       />
-      <div className="flex lg:gap-3 place-content-center place-items-end px-5 lg:px-10 pt-24 lg:pt-10 absolute">
+      <div className="flex lg:gap-3 place-content-center place-items-end px-5 lg:px-10 pt-24 lg:pt-20 absolute">
         <img
           src=""
           alt=""
