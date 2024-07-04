@@ -22,7 +22,7 @@ function OrgProfile() {
           </h1>
           <div className="flex place-content-center place-items-center gap-4">
             <p className="font-semibold lg:text-xl">Currently hiring</p>
-            <button className="bg-black text-white hover:text-black hover:bg-white border-2 hover:border-4 hover:border-black font-medium hover:font-bold lg:w-24 lg:h-14 rounded-r-full rounded-l-full hover:shadow-xl">
+            <button className="bg-black text-white hover:text-black hover:bg-white border-2 hover:border-4 hover:border-black font-medium hover:font-bold lg:w-24 lg:h-14 rounded-r-full rounded-l-full shadow-lg hover:shadow-xl">
               <span className="text-xl">Apply</span>
             </button>
           </div>
