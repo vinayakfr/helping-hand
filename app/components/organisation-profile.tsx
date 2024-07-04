@@ -56,7 +56,7 @@ function OrgProfile() {
               className="lg:w-[12.5rem] lg:h-[12.5rem] rounded-full bg-black object-cover outline-4 outline-dashed outline-offset-2 outline-black"
             />
             <div className="flex flex-col place-content-center place-items-center bg-black w-[32.5rem] h-[32.5rem] rounded-full absolute outline-4 outline-dashed outline-offset-4">
-              <h1 className="font-vold lg:text-4xl underline text-white">
+              <h1 className="font-vold lg:text-5xl underline text-white">
                 Mission
               </h1>
               <p className="font-light text-white text-center p-10 lg:text-lg">
