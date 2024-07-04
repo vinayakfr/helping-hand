@@ -26,6 +26,51 @@ function OrgProfile() {
           vitae omnis vel, libero accusamus quisquam repellat? Eum, consequatur.
         </p>
         <hr />
+        <div className="grid grid-rows-3 grid-cols-1 gap-y-20 place-content-center place-items-center">
+          <div className="flex gap-[30rem]">
+            <img
+              src=""
+              alt=""
+              className="lg:w-[12.5rem] lg:h-[12.5rem] rounded-full bg-black object-cover outline-4 outline-dashed outline-offset-2 outline-black"
+            />
+            <img
+              src=""
+              alt=""
+              className="lg:w-[12.5rem] lg:h-[12.5rem] rounded-full bg-black object-cover outline-4 outline-dashed outline-offset-2 outline-black"
+            />
+          </div>
+          <div className="flex place-content-center place-items-center gap-[50rem]">
+            <img
+              src=""
+              alt=""
+              className="lg:w-[12.5rem] lg:h-[12.5rem] rounded-full bg-black object-cover outline-4 outline-dashed outline-offset-2 outline-black"
+            />
+            <div className="flex flex-col place-content-center place-items-center bg-black w-[32.5rem] h-[32.5rem] rounded-full absolute outline-4 outline-dashed outline-offset-4">
+              <h1 className="font-vold lg:text-4xl underline text-white">
+                Mission
+              </h1>
+              <p className="font-light text-white text-center p-10 lg:text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime consequatur modi omnis labore, id odit ad aut maiores nostrum suscipit! Perspiciatis, reiciendis dignissimos nesciunt repudiandae mollitia aliquid eius voluptates aperiam necessitatibus exercitationem ullam ducimus! Adipisci repellat beatae voluptate facilis aliquam id aperiam, ex possimus explicabo culpa, enim assumenda quam officiis!</p>
+            </div>
+            <img
+              src=""
+              alt=""
+              className="lg:w-[12.5rem] lg:h-[12.5rem] rounded-full bg-black object-cover outline-4 outline-dashed outline-offset-2 outline-black"
+            />
+          </div>
+          <div className="flex gap-[30rem]">
+            <img
+              src=""
+              alt=""
+              className="lg:w-[12.5rem] lg:h-[12.5rem] rounded-full bg-black object-cover outline-4 outline-dashed outline-offset-2 outline-black"
+            />
+            <img
+              src=""
+              alt=""
+              className="lg:w-[12.5rem] lg:h-[12.5rem] rounded-full bg-black object-cover outline-4 outline-dashed outline-offset-2 outline-black"
+            />
+          </div>
+        </div>
+        <hr />
       </div>
     </div>
   );
