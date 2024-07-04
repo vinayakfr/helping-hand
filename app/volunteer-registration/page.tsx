@@ -29,21 +29,19 @@ function VolunteerReg() {
             </h1>
             <div className="flex flex-col gap-4 lg:gap-8 p-4 lg:p-[3rem] place-content-start place-items-start">
               <p className="font-thin lg:text-3xl">
-                Volunteering has been linked to numerous health benefits,
-                including lower blood pressure,reduced stress levels, and a
-                longer lifespan. Engaging in regular volunteer work can improve
-                both mental and physical health.
+                Volunteering offers many health benefits, such as lower blood
+                pressure, less stress, and a longer life. Regular volunteer work
+                can boost both mental and physical health.
               </p>
               <p className="font-thin lg:text-3xl">
                 Volunteering is a great way to meet new people and build social
-                connections. It brings together individuals from diverse
-                backgrounds, fostering inclusivity and mutual understanding.
+                connections. It brings together diverse individuals, fostering
+                inclusivity and understanding.
               </p>
               <p className="font-thin lg:text-3xl">
-                Helping others can increase feelings of happiness and reduce
-                symptoms of depression and anxiety. The sense of purpose and
-                fulfillment that comes from volunteering can significantly
-                enhance mental well-being.
+                Helping others can boost happiness and reduce depression and
+                anxiety. Volunteering gives a sense of purpose and fulfillment,
+                enhancing mental well-being.
               </p>
 
               <div className="hidden lg:block">
@@ -76,85 +74,53 @@ function VolunteerReg() {
       )}
 
       {step === 2 && (
-        <div className="flex flex-col gap-5 place-content-center place-items-center px-3 xl:px-10 pt-2 lg:py-10">
-          <h1 className="text-center text-5xl lg:text-6xl font-bold leading-[3.5rem]">
-            Let&apos;s start by creating your profile
-          </h1>
-          <div className="w-full h-[20rem] xl:h-[25rem] xl:w-[35rem] rounded-xl bg-black flex flex-col gap-6 place-content-start xl:place-content-center xl:place-items-center py-5 px-5">
-            <div className="flex flex-col">
-              <label
-                htmlFor="fullName"
-                className="xl:text-2xl font-medium text-white"
-              >
-                Full Name*
-              </label>
+        <div className="flex flex-col">
+          <div className="flex justify-between place-content-center place-items-end px-10">
+            <h1 className="font-bold text-center lg:text-left lg:w-[30rem] lg:text-8xl">
+              Let&apos;s start with some simple questions...
+            </h1>
+            <div className="flex flex-col place-content-center place-items-end gap-3 ">
               <input
                 type="text"
-                id="fullName"
-                className="h-12 w-full xl:w-[30rem] rounded-lg border-2 border-black xl:text-xl"
+                id="name"
+                className="h-14 w-full lg:w-[30rem] rounded-lg border-2 border-black lg:text-xl p-2"
+                placeholder="Name"
                 required
               />
-            </div>
-            <div className="flex flex-col">
-              <label
-                htmlFor="email"
-                className="xl:text-2xl font-medium text-white"
-              >
-                Email*
-              </label>
               <input
-                type="email"
+                type="text"
                 id="email"
-                className="h-12 w-full xl:w-[30rem] rounded-lg border-2 border-black xl:text-xl"
+                className="h-12 w-full lg:w-[30rem] rounded-lg border-2 border-black lg:text-xl p-2"
+                placeholder="Email"
                 required
               />
-            </div>
-            <div className="flex flex-col">
-              <label
-                htmlFor="phone"
-                className="xl:text-2xl font-medium text-white"
+              <button
+                className="bg-black hover:bg-white border-2 hover:border-black text-white hover:text-black hover:font-semibold w-28 h-14 rounded-xl shadow-xl hover:shadow-md hover:shadow-black"
+                onClick={handleContinueClick}
               >
-                Phone Number*
-              </label>
-              <input
-                type="text"
-                id="phone"
-                className="h-12 w-full xl:w-[30rem] rounded-lg border-2 border-black xl:text-xl"
-                required
-              />
+                <span className="lg:text-xl">Continue</span>
+              </button>
             </div>
           </div>
-          <div className="flex justify-between w-full gap-5 px-10">
-            <button
-              className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
-              onClick={handlePreviousClick}
-            >
-              <span className="text-center text-xl lg:text-2xl">Go back</span>
-            </button>
-            <button
-              className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black"
-              onClick={handleContinueClick}
-            >
-              <span className="text-center text-xl lg:text-2xl">Continue</span>
-            </button>
-          </div>
+
+          <img src="asset2.png" alt="" />
         </div>
       )}
 
       {step === 3 && (
         <div className="flex flex-col gap-3 place-content-center place-items-center pt-2 lg:py5">
-            <h1 className="text-4xl lg:text-6xl font-bold text-center">
-              Tell Us Your Story
-            </h1>
-            <p className="text-center text-lg xl:text-3xl px-4 xl:px-12 leading-relaxed text-gray-800 italic">
-              Every volunteer has a unique journey and inspiring story to tell.
-              From the moment you decided to give your time to help others, you
-              became part of a global community dedicated to making a
-              difference. Perhaps you were inspired by a personal experience or
-              motivated by a desire to contribute to a cause close to your
-              heart. Whatever your reason, your efforts have undoubtedly left a
-              positive impact on the lives of many.
-            </p>
+          <h1 className="text-4xl lg:text-6xl font-bold text-center">
+            Tell Us Your Story
+          </h1>
+          <p className="text-center text-lg xl:text-3xl px-4 xl:px-12 leading-relaxed text-gray-800 italic">
+            Every volunteer has a unique journey and inspiring story to tell.
+            From the moment you decided to give your time to help others, you
+            became part of a global community dedicated to making a difference.
+            Perhaps you were inspired by a personal experience or motivated by a
+            desire to contribute to a cause close to your heart. Whatever your
+            reason, your efforts have undoubtedly left a positive impact on the
+            lives of many.
+          </p>
           <div className="flex flex-col lg:flex-row w-full justify-between place-content-center place-items-center xl:px-24 lg:py-5">
             <div className="hidden lg:block">
               <div className="flex flex-col gap-4 place-content-center place-items-start xl:text-3xl font-thin italic ">
@@ -195,53 +161,53 @@ function VolunteerReg() {
             Time to show-off
           </h1>
           <p className="text-center font-thin text-2xl xl:text-4xl px-4 py-5">
-            We know that you have a lot to offer to the society. But if you were
-            to pick your top three...what will they be?
+            We know you have much to offer society. If you had to choose your
+            top three contributions, what would they be?
           </p>
-          <div className="grid grid-rows-5 grid-cols-3 xl:grid-rows-3 xl:grid-cols-5 gap-x-4 gap-y-2 place-content-center place-items-center px-2 xl:px-10 lg:py-10">
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+          <div className="grid grid-rows-5 grid-cols-3 xl:grid-rows-3 xl:grid-cols-5 place-content-center gap-y-3 place-items-center px-2 lg:px-16 lg:py-10">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Tutor
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Public Speaking
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Music
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               English
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Problem-Solving
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Theatre
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Dancing
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Foriegn Language
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Project Management
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Mentorship
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Crisis Management
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Computer Skills
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Social Media Management
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Community Outreach
             </button>
-            <button className="h-16 w-24 xl:h-24 xl:w-56 rounded-xl font-thin text-white bg-black text-xl xl:text-3xl lg:p-4">
+            <button className="h-16 w-24 lg:h-24 lg:w-44 rounded-xl font-light text-white bg-black text-xl lg:text-2xl lg:p-4">
               Conflict Resolution
             </button>
           </div>
@@ -261,14 +227,14 @@ function VolunteerReg() {
           </div>
         </div>
       )}
+
       {step === 5 && (
         <div className="flex flex-col gap-3 place-content-center place-items-center pt-2 lg:py-10">
           <h1 className="text-center font-bold text-6xl xl:text-8xl px-2">
             You&apos;re GOATED
           </h1>
           <p className="text-center font-thin text-2xl xl:text-4xl px-4 py-5">
-            Thank you for sharing your story and skills. You can now go back to
-            the homepage or straight to the job portal.
+            Thank you for your patience. You can now search for NGOs and Organisations looking for a red-caped hero like you. You can view your profile by clicking on the button below.
           </p>
           <div className="flex justify-between w-full gap-5 px-10 py-5">
             <button
@@ -279,7 +245,7 @@ function VolunteerReg() {
             </button>
             <button className="h-16 w-32 xl:w-40 rounded-xl bg-black text-white font-thin hover:font-medium hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black">
               <span className="text-center text-xl lg:text-2xl">
-                Job Portal
+                Profile
               </span>
             </button>
           </div>
