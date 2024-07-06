@@ -33,6 +33,7 @@ function LogIn() {
           <button className="text-white bg-black w-28 h-14 lg:w-40 rounded-xl hover:bg-white hover:border-4 hover:border-black hover:font-bold hover:text-black">
             <span className="text-xl lg:text-2xl">Log-In</span>
           </button>
+          <p className="text-2xl">Not a member? <span className="hover:italic underline">Register</span></p>
         </div>
       </div>
     </div>
