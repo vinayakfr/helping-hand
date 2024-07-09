@@ -12,14 +12,15 @@ function Join() {
           <div className="flex flex-col gap-2 xl:px-10">
             <p className="text-lg xl:text-3xl px-10">
               If you are looking for places where you can use your good-will and
-              resources that can touch someone&apos;s heart
+              resources that can touch someone&apos;s heart,
             </p>
             <p className="text-lg xl:text-3xl px-10">
               Or if you are an up-and-coming organisation sought to fight the
-              social evils or help the kids in need
+              social evils or help the kids in need,
             </p>
             <p className="text-lg xl:text-3xl px-10">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Volunteering provides an opportunity to make a positive impact on
+              society and connect with like-minded individuals.
             </p>
           </div>
           <div className="flex flex-col gap-3 xl:gap-6 place-content-center place-items-center pt-10 xl:pt-0 xl:px-32">
