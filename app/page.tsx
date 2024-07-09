@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Join from "./components/joining";
 import Mission from "./components/mission";
 import Navbar from "./components/navbar";
@@ -23,12 +24,16 @@ export default function Home() {
           skills and interests.
         </p>
         <div className="flex flex-col gap-3 lg:gap-4 xl:gap-5 place-content-center place-items-center py-5 lg:py-3 xl:pt-8">
-          <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
-            <span className="text-center text-xl xl:text-2xl">About Us</span>
-          </button>
-          <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
-            <span className="text-center text-xl xl:text-2xl">Join Us</span>
-          </button>
+          <Link href="/#about-us">
+            <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
+              <span className="text-center text-xl xl:text-2xl">About Us</span>
+            </button>
+          </Link>
+          <Link href="/#join">
+            <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
+              <span className="text-center text-xl xl:text-2xl">Join Us</span>
+            </button>
+          </Link>
         </div>
         <p className="text-center pt- text-lg xl:text-xl">
           Already a member?{" "}
@@ -53,6 +58,7 @@ export default function Home() {
           src="asset2.png"
           alt="A relevant description of the image"
           className="w-full object-cover select-none"
+          id="about-us"
         />
 
         <div className="bg-black text-white lg:pb-20">

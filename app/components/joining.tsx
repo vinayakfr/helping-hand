@@ -3,7 +3,7 @@ import React from "react";
 function Join() {
   return (
     <div>
-      <div>
+      <div id="join">
         <h1 className="text-center font-bold text-5xl xl:text-8xl px-2 xl:px-64 xl:py-10">
           Become a part of the{" "}
           <span className="font-thin italic">community</span>
