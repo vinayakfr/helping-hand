@@ -30,19 +30,19 @@ export default function Navbar() {
             </a>
             <a
               href="/"
-              className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline"
+              className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline underline-offset-4"
             >
               Home
             </a>
             <a
               href="/browse"
-              className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline"
+              className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline underline-offset-4"
             >
               Browse
             </a>
             <a
               href="/profile"
-              className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline"
+              className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline underline-offset-4"
             >
               Profile
             </a>

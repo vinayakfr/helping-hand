@@ -8,8 +8,8 @@ function VolProfile() {
         alt=""
         className="bg-black w-full h-[12.5rem] lg:h-[20rem] object-cover absolute"
       />
-      <div className="flex justify-between w-full lg:gap-3 place-content-center place-items-end px-5 lg:px-10 pt-24 lg:pt-24 absolute">
-        <div className="flex place-content-center place-items-end">
+      <div className="flex justify-between w-full lg:gap-3 place-content-center place-items-end px-3 lg:px-10 pt-24 lg:pt-24 absolute">
+        <div className="flex gap-2 place-content-center place-items-end">
           <img
             src=""
             alt=""
@@ -19,20 +19,20 @@ function VolProfile() {
             Vinayak Srivastava
           </h1>
         </div>
-        <button className="bg-white text-black hover:text-white hover:bg-black border-2 border-black hover:border-4 hover:border-white font-medium hover:font-bold lg:w-28 lg:h-16 rounded-r-full rounded-l-full shadow-lg hover:shadow-xl"><span className="text-xl">Connect</span></button>
+        <button className="bg-white text-black hover:text-white hover:bg-black border-2 border-black hover:border-4 hover:border-white font-medium hover:font-bold w-auto h-auto lg:w-28 lg:h-14 p-2 lg:p-0 rounded-r-full rounded-l-full shadow-lg hover:shadow-xl"><span className="text-xl">Connect</span></button>
       </div>
       <div className="pt-[13rem] lg:pt-[22.5rem]">
-        <div className="flex flex-col lg:flex-row w-full justify-between px-10 pb-10">
-          <h1 className="font-bold text-4xl lg:text-6xl lg:w-[27.5rem]">
+        <div className="flex flex-col lg:flex-row place-content-center place-items-center w-full justify-between lg:px-10 pb-10">
+          <h1 className="text-center lg:text-left font-bold text-4xl lg:text-6xl w-full lg:w-[27.5rem] pb-5">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga,
             labore?
           </h1>
-          <div className="flex flex-col gap-5">
-            <p className="italic text-xl lg:text-2xl bg-zinc-200 lg:w-[40rem] h-auto p-3 rounded-xl">
+          <div className="flex flex-col gap-5 px-5">
+            <p className="italic text-lg lg:text-2xl bg-zinc-200 lg:w-[40rem] h-auto p-1 lg:p-3 rounded-xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
               necessitatibus?
             </p>
-            <h1 className="bg-zinc-200 lg:w-[40rem] h-auto rounded-xl text-justify lg:text-2xl p-4">
+            <h1 className="bg-zinc-200 lg:w-[40rem] h-auto rounded-xl text-justify lg:text-2xl p-2 lg:p-4">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Exercitationem pariatur aliquid non aperiam dolor incidunt! Iste
               esse labore repellendus voluptatibus eius cupiditate magnam
