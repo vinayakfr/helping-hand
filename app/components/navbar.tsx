@@ -35,10 +35,10 @@ export default function Navbar() {
               Home
             </a>
             <a
-              href=""
+              href="/browse"
               className="font-light xl:text-2xl 2xl:text-4xl text-white hover:underline"
             >
-              About Us
+              Browse
             </a>
             <a
               href="/profile"

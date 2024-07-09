@@ -3,7 +3,7 @@ import Join from "./components/joining";
 import Mission from "./components/mission";
 import Navbar from "./components/navbar";
 
-export default function Home() {
+export default function Introduction() {
   return (
     <div>
       <Navbar />
