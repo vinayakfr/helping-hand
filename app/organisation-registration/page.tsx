@@ -29,7 +29,7 @@ function OrganisationReg() {
                   Welcome to The Helping Hands! By registering your organization, you can connect with dedicated volunteers who are eager to support your cause and make a difference. Our platform allows you to find the right volunteers for your needs, whether for events, projects, or ongoing support.
                 </p>
                 <p>
-                  Our easy registration process will guide you through providing the necessary information to get your organization up and running on our platform. Let's work together to create positive change and build a stronger community.
+                  Our easy registration process will guide you through providing the necessary information to get your organization up and running on our platform. Let&apos;s work together to create positive change and build a stronger community.
                 </p>
               </div>
               <div className="flex justify-center -space-x-14">
@@ -38,10 +38,10 @@ function OrganisationReg() {
               </div>
               <div className="flex flex-col gap-5 lg:gap-10 w-[20rem] md:w-[30rem] lg:w-[25rem] xl:text-lg text-center lg:text-right">
                 <p>
-                  By joining our platform, you gain access to a network of passionate individuals who are ready to contribute their time and skills. Together, we can achieve your organization's goals and amplify your impact in the community.
+                  By joining our platform, you gain access to a network of passionate individuals who are ready to contribute their time and skills. Together, we can achieve your organization&apos;s goals and amplify your impact in the community.
                 </p>
                 <p>
-                  Our support team is here to assist you throughout the registration process and beyond. Don't hesitate to reach out if you have any questions or need assistance. Let's get started!
+                  Our support team is here to assist you throughout the registration process and beyond. Don&apos;t hesitate to reach out if you have any questions or need assistance. Let&apos;s get started!
                 </p>
               </div>
             </div>
@@ -63,7 +63,7 @@ function OrganisationReg() {
         <div className="flex flex-col place-content-center place-items-center lg:place-items-start gap-16 px-10">
           <div className="flex flex-col lg:flex-row justify-between place-content-center place-items-center lg:place-items-end gap-5 lg:gap-0">
             <h1 className="text-left font-bold text-6xl xl:text-[10rem] xl:leading-[9rem]">
-              Let's start with your name
+              Let&apos;s start with your name
             </h1>
             <div className="flex flex-col place-content-center place-items-center lg:place-items-end gap-5 xl:gap-5">
               <input
