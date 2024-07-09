@@ -38,7 +38,7 @@ export default function Introduction() {
         <p className="text-center pt- text-lg xl:text-xl">
           Already a member?{" "}
           <a href="" className="underline hover:italic">
-            Log in to your account
+            Log in
           </a>
         </p>
         <p className="text-center lg:text-3xl lg:pt-5 px-3 lg:px-10 text-gray-700 leading-relaxed">
