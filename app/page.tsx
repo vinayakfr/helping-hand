@@ -41,7 +41,7 @@ export default function Introduction() {
             Log in
           </a>
         </p>
-        <p className="text-center lg:text-3xl lg:pt-5 px-3 lg:px-10 text-gray-700 leading-relaxed">
+        <p className="text-center lg:text-xl lg:pt-5 px-3 lg:px-20 text-gray-700 leading-relaxed">
           <span className="font-medium">
             Volunteering can lead to job opportunities that you never would have
             heard about otherwise.
