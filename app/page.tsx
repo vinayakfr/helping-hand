@@ -40,7 +40,15 @@ export default function Home() {
             Log in
           </a>
         </p>
-        <p className="text-center lg:text-3xl lg:pt-5 px-3 lg:px-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur similique dolorum laborum, saepe id ea aperiam ex minus exercitationem sint!</p>
+        <p className="text-center lg:text-3xl lg:pt-5 px-3 lg:px-10 text-gray-700 leading-relaxed">
+          <span className="font-medium">
+            Volunteering can lead to job opportunities that you never would have heard about otherwise.
+          </span> 
+          <br />
+          <span className="font-light">
+            It will introduce you to new people, who will see you in a positive light knowing you’re taking part in a volunteering project or programme.
+          </span>
+        </p>        
         <p className="text-center text-xl xl:text-3xl xl:py-6 pt-3 px-2">
         </p>
         <img
