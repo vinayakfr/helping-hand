@@ -1,18 +1,8 @@
-"use client";
-
-import React, { useRef } from "react";
 import Join from "./components/joining";
 import Mission from "./components/mission";
 import Navbar from "./components/navbar";
 
 export default function Home() {
-  const aboutUsRef = useRef(null);
-  const joinUsRef = useRef(null);
-
-  const scrollToSection = (sectionRef) => {
-    sectionRef.current.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <div>
       <Navbar />
@@ -33,46 +23,43 @@ export default function Home() {
           skills and interests.
         </p>
         <div className="flex flex-col gap-3 lg:gap-4 xl:gap-5 place-content-center place-items-center py-5 lg:py-3 xl:pt-8">
-          <button
-            className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300"
-            onClick={() => scrollToSection(aboutUsRef)}
-          >
+          <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
             <span className="text-center text-xl xl:text-2xl">About Us</span>
           </button>
-          <button
-            className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300"
-            onClick={() => scrollToSection(joinUsRef)}
-          >
+          <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
             <span className="text-center text-xl xl:text-2xl">Join Us</span>
           </button>
         </div>
         <p className="text-center pt- text-lg xl:text-xl">
           Already a member?{" "}
           <a href="" className="underline hover:italic">
-            Log in
+            Log in to your account
           </a>
         </p>
         <p className="text-center lg:text-3xl lg:pt-5 px-3 lg:px-10 text-gray-700 leading-relaxed">
           <span className="font-medium">
-            Volunteering can lead to job opportunities that you never would have heard about otherwise.
-          </span> 
+            Volunteering can lead to job opportunities that you never would have
+            heard about otherwise.
+          </span>
           <br />
           <span className="font-light">
-            It will introduce you to new people, who will see you in a positive light knowing you’re taking part in a volunteering project or programme.
+            It will introduce you to new people, who will see you in a positive
+            light knowing you’re taking part in a volunteering project or
+            programme.
           </span>
         </p>
-        <p className="text-center text-xl xl:text-3xl xl:py-6 pt-3 px-2">
-        </p>
+        <p className="text-center text-xl xl:text-3xl xl:py-6 pt-3 px-2"></p>
         <img
           src="asset2.png"
-          alt=""
+          alt="A relevant description of the image"
           className="w-full object-cover select-none"
         />
 
-        <div ref={aboutUsRef} className="bg-black text-white lg:pb-20">
+        <div className="bg-black text-white lg:pb-20">
           <h1 className="text-center px-2 text-white font-light text-4xl md:text-5xl lg:text-6xl xl:text-8xl xl:-translate-y-20">
-            Creating a <span className="underline italic font-thin">bridge</span>{" "}
-            between good hearts
+            Creating a{" "}
+            <span className="underline italic font-thin">bridge</span> between
+            good hearts
           </h1>
           <div className="flex justify-between items-center w-full pt-10 lg:px-10">
             <div className="flex flex-col gap-7">
@@ -125,7 +112,7 @@ export default function Home() {
           </div>
         </div>
         <Mission />
-        <div ref={joinUsRef}>
+        <div>
           <Join />
         </div>
       </div>
