@@ -1,8 +1,18 @@
+"use client";
+
+import React, { useRef } from "react";
 import Join from "./components/joining";
 import Mission from "./components/mission";
 import Navbar from "./components/navbar";
 
 export default function Home() {
+  const aboutUsRef = useRef(null);
+  const joinUsRef = useRef(null);
+
+  const scrollToSection = (sectionRef) => {
+    sectionRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div>
       <Navbar />
@@ -23,15 +33,17 @@ export default function Home() {
           skills and interests.
         </p>
         <div className="flex flex-col gap-3 lg:gap-4 xl:gap-5 place-content-center place-items-center py-5 lg:py-3 xl:pt-8">
-          <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
-            <a href="" className="text-center text-xl xl:text-2xl">
-              About Us
-            </a>
+          <button
+            className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300"
+            onClick={() => scrollToSection(aboutUsRef)}
+          >
+            <span className="text-center text-xl xl:text-2xl">About Us</span>
           </button>
-          <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
-            <a href="" className="text-center text-xl xl:text-2xl">
-              Join Us
-            </a>
+          <button
+            className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300"
+            onClick={() => scrollToSection(joinUsRef)}
+          >
+            <span className="text-center text-xl xl:text-2xl">Join Us</span>
           </button>
         </div>
         <p className="text-center pt- text-lg xl:text-xl">
@@ -48,7 +60,7 @@ export default function Home() {
           <span className="font-light">
             It will introduce you to new people, who will see you in a positive light knowing you’re taking part in a volunteering project or programme.
           </span>
-        </p>        
+        </p>
         <p className="text-center text-xl xl:text-3xl xl:py-6 pt-3 px-2">
         </p>
         <img
@@ -57,14 +69,14 @@ export default function Home() {
           className="w-full object-cover select-none"
         />
 
-        <div className="bg-black text-white lg:pb-20">
+        <div ref={aboutUsRef} className="bg-black text-white lg:pb-20">
           <h1 className="text-center px-2 text-white font-light text-4xl md:text-5xl lg:text-6xl xl:text-8xl xl:-translate-y-20">
-            Creating a <a className="underline italic font-thin">bridge</a>{" "}
+            Creating a <span className="underline italic font-thin">bridge</span>{" "}
             between good hearts
           </h1>
           <div className="flex justify-between items-center w-full pt-10 lg:px-10">
             <div className="flex flex-col gap-7">
-              <h1 className="text-sm md:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem]  bg-white text-black rounded-r-full p-5 lg:p-4">
+              <h1 className="text-sm md:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem] bg-white text-black rounded-r-full p-5 lg:p-4">
                 We provide volunteers a user-friendly platform for personalized
                 NGO matching and offer NGOs efficient recruitment tools to reach
                 dedicated volunteers, optimizing their impact on communities and
@@ -113,7 +125,9 @@ export default function Home() {
           </div>
         </div>
         <Mission />
-        <Join />
+        <div ref={joinUsRef}>
+          <Join />
+        </div>
       </div>
     </div>
   );
