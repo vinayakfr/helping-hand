@@ -2,15 +2,15 @@ import React from "react";
 
 function OrganisationCard() {
   return (
-    <div className="grid grid-rows-1 grid-cols-3 place-content-center place-items-center px-10 py-5">
+    <div className="grid grid-rows-3 grid-cols-1 md:grid-rows-1 md:grid-cols-3 lg:gap-x-36 xl:gap-x-20 place-content-center place-items-center xl:px-10 py-5">
       <img
         src=""
         alt=""
-        className="w-[15rem] h-[15rem] rounded-full bg-black"
+        className="w-[10rem] h-[10rem] xl:w-[12.5rem] xl:h-[12.5rem] rounded-full bg-black"
       />
       <div className="flex flex-col gap-2 place-content-center place-items-center">
-        <h1 className="font-bold lg:text-3xl">Organisation Name</h1>
-        <p className="w-[35rem] lg:text-lg text-justify">
+        <h1 className="font-bold text-2xl lg:text-3xl">Organisation Name</h1>
+        <p className="w-[20rem] xl:w-[35rem] lg:text-lg text-justify">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
           sapiente aspernatur, numquam debitis, pariatur similique perferendis,
           repellat accusantium iste distinctio tenetur rem excepturi impedit id
@@ -18,11 +18,11 @@ function OrganisationCard() {
         </p>
       </div>
       <div className="flex flex-col place-content-center place-items-center gap-2">
-        <button className="bg-black text-white font-medium w-28 h-10 rounded-xl text-center place-content-center ">
-          View Profile
+        <button className="bg-black text-white font-medium h-14 w-32 md:w-28 md:h-10 rounded-xl text-center place-content-center ">
+          <span className="text-lg">View Profile</span>
         </button>
-        <button className="bg-black text-white font-medium w-28 h-10 rounded-xl text-center place-content-center ">
-          Connect
+        <button className="bg-black text-white font-medium h-14 w-32 md:w-28 md:h-10 rounded-xl text-center place-content-center ">
+          <span className="text-lg">Connect</span>
         </button>
       </div>
     </div>
