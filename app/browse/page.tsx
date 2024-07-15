@@ -10,7 +10,7 @@ function Browse() {
         <h1 className="text-center font-black text-5xl lg:text-9xl px-5">
           Now help is one click away
         </h1>
-        <p className="text-center font-medium lg:text-2xl">
+        <p className="text-center font-medium lg:text-2xl lg:px-10">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
           explicabo eligendi, voluptates aspernatur accusantium optio
           perspiciatis in minus tempora provident.

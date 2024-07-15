@@ -19,7 +19,9 @@ function VolProfile() {
             Vinayak Srivastava
           </h1>
         </div>
-        <button className="bg-white text-black hover:text-white hover:bg-black border-2 border-black hover:border-4 hover:border-white font-medium hover:font-bold w-auto h-auto lg:w-28 lg:h-14 p-2 lg:p-0 rounded-r-full rounded-l-full shadow-lg hover:shadow-xl"><span className="text-xl">Connect</span></button>
+        <button className="bg-white text-black hover:text-white hover:bg-black border-2 border-black hover:border-4 hover:border-white font-medium hover:font-bold w-auto h-auto lg:w-28 lg:h-14 p-2 lg:p-0 rounded-r-full rounded-l-full shadow-lg hover:shadow-xl">
+          <span className="text-xl">Connect</span>
+        </button>
       </div>
       <div className="pt-[13rem] lg:pt-[22.5rem]">
         <div className="flex flex-col lg:flex-row place-content-center place-items-center w-full justify-between lg:px-10 pb-10">
@@ -74,22 +76,22 @@ function VolProfile() {
           </div>
         </div>
         <hr />
-        <div className="py-10 px-5">
+        <div className="py-10 px-5 lg:px-10">
           <h1 className="font-bold text-3xl lg:text-5xl ">
             Personal Information:
           </h1>
           <div className="grid grid-cols-2 grid-rows-5 place-content-center place-items-center gap-3 lg:gap-5 pt-5">
             <div className="flex flex-col place-content-center place-items-start w-[7rem] h-[7.5rem] lg:w-[17.5rem] lg:h-[5rem]">
               <h1 className="font-semibold lg:text-2xl">Contact-Number</h1>
-              <p className="font-medium  lg:text-lg">8851721696</p>
+              <p className="font-medium  lg:text-lg">XXXXXXXXXX</p>
             </div>
             <div className="flex flex-col place-content-center place-items-start w-[7rem] h-[7.5rem] lg:w-[17.5rem] lg:h-[5rem]">
               <h1 className="font-semibold lg:text-2xl">Email</h1>
-              <p className="font-medium lg:text-lg">vinayak.xiv@gmail.com</p>
+              <p className="font-medium lg:text-lg">xyz@gmail.com</p>
             </div>
             <div className="flex flex-col place-content-center place-items-start w-[7rem] h-[7.5rem] lg:w-[17.5rem] lg:h-[5rem]">
               <h1 className="font-semibold lg:text-2xl">Age</h1>
-              <p className="font-medium lg:text-lg">18</p>
+              <p className="font-medium lg:text-lg">-</p>
             </div>
             <div className="flex flex-col place-content-center place-items-start w-[7rem] h-[7.5rem] lg:w-[17.5rem] lg:h-[5rem]">
               <h1 className="font-semibold lg:text-2xl">Gender</h1>
@@ -97,7 +99,7 @@ function VolProfile() {
             </div>
             <div className="flex flex-col place-content-center place-items-start w-[7rem] h-[7.5rem] lg:w-[17.5rem] lg:h-[5rem]">
               <h1 className="font-semibold lg:text-2xl">Designation</h1>
-              <p className="font-medium lg:text-lg">Student</p>
+              <p className="font-medium lg:text-lg">ABC</p>
             </div>
             <div className="flex flex-col place-content-center place-items-start w-[7rem] h-[7.5rem] lg:w-[17.5rem] lg:h-[5rem]">
               <h1 className="font-semibold lg:text-2xl">Type-of-Service</h1>
@@ -106,20 +108,12 @@ function VolProfile() {
             <div className="flex flex-col place-content-center place-items-start w-[7rem] h-[7.5rem] lg:w-[17.5rem] lg:h-[5rem]">
               <h1 className="font-semibold lg:text-2xl">Residential Address</h1>
               <p className="font-medium lg:text-lg">
-                A-8, Mother Apartment, Plot-6, Sector-5, Dwarka, New Delhi
+                ABC
               </p>
             </div>
             <div className="flex flex-col place-content-center place-items-start w-[7rem] h-[7.5rem] lg:w-[17.5rem] lg:h-[5rem]">
               <h1 className="font-semibold lg:text-2xl">Pin Code</h1>
-              <p className="font-medium lg:text-lg">110075</p>
-            </div>
-            <div className="flex flex-col place-content-center place-items-start">
-              <h1>Heading</h1>
-              <p>Information</p>
-            </div>
-            <div className="flex flex-col place-content-center place-items-start">
-              <h1>Heading</h1>
-              <p>Information</p>
+              <p className="font-medium lg:text-lg">XXXXXX</p>
             </div>
           </div>
         </div>
