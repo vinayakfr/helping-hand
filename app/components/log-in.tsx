@@ -4,12 +4,12 @@ function LogIn() {
   return (
     <div>
       <h1 className="text-center font-bold text-5xl lg:text-8xl">Log-In</h1>
-      <p className="text-center font-light text-2xl lg:text-3xl pt-4 lg:pt-5 px-5">
+      <p className="text-center font-light text-2xl lg:text-3xl pt-4 lg:pt-5 px-40">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque
         nesciunt ullam distinctio. Eligendi, optio.
       </p>
       <div className="flex flex-col lg:flex-row place-content-center place-items-center justify-between w-full px-5 lg:px-10 pt-5 lg:pt-10">
-        <p className="lg:w-[35rem] lg:text-3xl hidden lg:block">
+        <p className="lg:w-[35rem] lg:text-3xl hidden lg:block bg-black text-white p-20 rounded-r-full">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magnam,
           dolorum deleniti iure adipisci nam dolores beatae quia consequatur
           maxime?
