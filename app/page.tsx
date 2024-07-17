@@ -37,7 +37,7 @@ export default function Introduction() {
         </div>
         <p className="text-center pt- text-lg xl:text-xl">
           Already a member?{" "}
-          <a href="" className="underline hover:italic">
+          <a href="log-in" className="underline hover:italic">
             Log in
           </a>
         </p>
