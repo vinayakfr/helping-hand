@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 function VolunteerReg() {
   const [step, setStep] = useState(1);
@@ -251,6 +252,7 @@ function VolunteerReg() {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 }
