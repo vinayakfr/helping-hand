@@ -2,7 +2,7 @@ import React from "react";
 
 function LogIn() {
   return (
-    <div>
+    <div className="h-[45rem]">
       <h1 className="text-center font-bold text-5xl lg:text-8xl">Log-In</h1>
       <p className="text-center font-light text-2xl lg:text-3xl py-4 lg:py-5 lg:px-40">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque
