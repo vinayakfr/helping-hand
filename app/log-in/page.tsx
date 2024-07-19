@@ -39,7 +39,7 @@ function page() {
             </button>
             <p className="text-2xl">
               Not a member?
-              <span className="hover:italic underline">Register</span>
+              <span className="hover:italic underline cursor-pointer">Register</span>
             </p>
           </div>
         </div>
