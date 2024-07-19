@@ -1,6 +1,7 @@
 import React from "react";
 import OrganisationCard from "../components/organisation-card";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 function Browse() {
   return (
@@ -40,6 +41,7 @@ function Browse() {
         <OrganisationCard />
         <OrganisationCard />
       </div>
+      <Footer />
     </div>
   );
 }

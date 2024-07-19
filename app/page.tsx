@@ -2,6 +2,7 @@ import Link from "next/link";
 import Join from "./components/joining";
 import Mission from "./components/mission";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 export default function Introduction() {
   return (
@@ -122,6 +123,7 @@ export default function Introduction() {
           <Join />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

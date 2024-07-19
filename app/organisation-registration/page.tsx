@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 function OrganisationReg() {
   const [step, setStep] = useState(1);
@@ -266,6 +267,7 @@ function OrganisationReg() {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 }
