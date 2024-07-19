@@ -4,7 +4,7 @@ function LogIn() {
   return (
     <div>
       <h1 className="text-center font-bold text-5xl lg:text-8xl">Log-In</h1>
-      <p className="text-center font-light text-2xl lg:text-3xl py-4 lg:pt-5 lg:px-40">
+      <p className="text-center font-light text-2xl lg:text-3xl py-4 lg:py-5 lg:px-40">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque
         nesciunt ullam distinctio. Eligendi, optio.
       </p>
@@ -33,7 +33,7 @@ function LogIn() {
           <button className="text-white bg-black w-28 h-14 lg:w-40 rounded-xl hover:bg-white hover:border-4 hover:border-black hover:font-bold hover:text-black">
             <span className="text-xl lg:text-2xl">Log-In</span>
           </button>
-          <p className="text-2xl">Not a member? <span className="hover:italic underline">Register</span></p>
+          <p className="text-2xl">Not a member?<span className="hover:italic underline">Register</span></p>
         </div>
       </div>
     </div>
