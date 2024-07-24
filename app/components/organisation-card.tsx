@@ -1,6 +1,12 @@
-import React from "react";
+// src/components/OrganisationCard.tsx
+import React from 'react';
+import { JobPost } from '../types/types';
 
-function OrganisationCard() {
+interface OrganisationCardProps {
+  post: JobPost;
+}
+
+const OrganisationCard: React.FC<OrganisationCardProps> = ({ post }) => {
   return (
     <div className="grid grid-rows-3 grid-cols-1 md:grid-rows-1 md:grid-cols-3 lg:gap-x-36 xl:gap-x-20 place-content-center place-items-center xl:px-10 py-5">
       <img
@@ -9,12 +15,9 @@ function OrganisationCard() {
         className="w-[10rem] h-[10rem] xl:w-[12.5rem] xl:h-[12.5rem] rounded-full bg-black"
       />
       <div className="flex flex-col gap-2 lg:gap-5 place-content-center place-items-center">
-        <h1 className="font-bold text-2xl lg:text-3xl">Organisation Name</h1>
+        <h1 className="font-bold text-2xl lg:text-3xl">{post.title}</h1>
         <p className="w-[20rem] xl:w-[35rem] lg:text-lg text-justify">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
-          sapiente aspernatur, numquam debitis, pariatur similique perferendis,
-          repellat accusantium iste distinctio tenetur rem excepturi impedit id
-          velit fugiat repellendus molestiae? Aliquam.
+          {post.description}
         </p>
       </div>
       <div className="flex flex-col place-content-center place-items-center gap-2">

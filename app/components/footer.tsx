@@ -1,24 +1,31 @@
-import {
-  IoLogoInstagram,
-  IoLogoFacebook,
-  IoLogoLinkedin,
-} from "react-icons/io";
+"use client";
 
-export default function Footer() {
+import React from "react";
+
+const Footer: React.FC = () => {
   return (
-    <div className="flex w-full justify-between place-items-center place-content-center px-10 bg-black lg:h-20">
-      <h1 className="lg:text-3xl font-bold text-white">TheHelpingHand</h1>
-      <div className="flex gap-3 place-items-center text-white">
-        <a href="https://www.instagram.com" aria-label="Instagram">
-          <IoLogoInstagram size={30} className="text-white" />
-        </a>
-        <a href="https://www.facebook.com" aria-label="Facebook">
-          <IoLogoFacebook size={30} className="text-white" />
-        </a>
-        <a href="https://www.linkedin.com" aria-label="LinkedIn">
-          <IoLogoLinkedin size={30} className="text-white" />
-        </a>
+    <footer className="bg-black text-white p-4 mt-8">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="text-2xl font-bold">
+          TheHelpingHand
+        </div>
+        <div className="text-lg">
+          Follow us on:
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="ml-2 hover:text-gray-400">
+            Instagram
+          </a>
+          <span className="mx-2">|</span>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            Facebook
+          </a>
+          <span className="mx-2">|</span>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            Twitter
+          </a>
+        </div>
       </div>
-    </div>
+    </footer>
   );
-}
+};
+
+export default Footer;
