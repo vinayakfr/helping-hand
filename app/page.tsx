@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Join from "./components/joining";
 import Mission from "./components/mission";
 import Navbar from "./components/navbar";
@@ -8,8 +7,8 @@ export default function Introduction() {
   return (
     <div>
       <Navbar />
-      <div className="py-2">
-        <h1 className="text-center text-7xl xl:text-[9.2rem] font-bold text-gray-900">
+      <div className="py-16 bg-gray-100">
+        <h1 className="text-center text-7xl xl:text-[9.2rem] font-extrabold text-gray-900 leading-tight">
           Welcome!
         </h1>
         <p className="text-center text-2xl lg:text-3xl xl:text-4xl text-gray-700 px-4 mt-4">
@@ -24,25 +23,21 @@ export default function Introduction() {
           <span className="underline">perfect opportunity</span> that suits your
           skills and interests.
         </p>
-        <div className="flex flex-col gap-3 lg:gap-4 xl:gap-5 place-content-center place-items-center py-5 lg:py-3 xl:pt-8">
-          <Link href="/#about-us">
-            <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
-              <span className="text-center text-xl xl:text-2xl">About Us</span>
-            </button>
-          </Link>
-          <Link href="/#join">
-            <button className="w-32 h-16 xl:w-40 rounded-xl bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-2xl hover:shadow-md hover:shadow-black lg:duration-300">
-              <span className="text-center text-xl xl:text-2xl">Join Us</span>
-            </button>
-          </Link>
+        <div className="flex flex-col gap-4 place-content-center place-items-center py-10">
+          <a href="/#about-us" className="w-40 h-16 rounded-full bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-xl hover:shadow-md hover:shadow-black transition duration-300 flex items-center justify-center">
+            <span className="text-xl xl:text-2xl">About Us</span>
+          </a>
+          <a href="/#join" className="w-40 h-16 rounded-full bg-black text-white font-light hover:font-bold hover:bg-white hover:text-black hover:border-2 hover:border-black shadow-xl hover:shadow-md hover:shadow-black transition duration-300 flex items-center justify-center">
+            <span className="text-xl xl:text-2xl">Join Us</span>
+          </a>
         </div>
-        <p className="text-center pt- text-lg xl:text-xl">
+        <p className="text-center text-lg xl:text-xl mt-8">
           Already a member?{" "}
-          <a href="log-in" className="underline hover:italic">
+          <a href="/log-in" className="underline hover:italic">
             Log in
           </a>
         </p>
-        <p className="text-center lg:text-xl lg:pt-5 px-3 lg:px-20 text-gray-700 leading-relaxed">
+        <p className="text-center lg:text-xl lg:pt-5 px-3 lg:px-20 text-gray-700 leading-relaxed mt-8">
           <span className="font-medium">
             Volunteering can lead to job opportunities that you never would have
             heard about otherwise.
@@ -54,66 +49,62 @@ export default function Introduction() {
             programme.
           </span>
         </p>
-        <p className="text-center text-xl xl:text-3xl xl:py-6 pt-3 px-2"></p>
         <img
           src="asset2.png"
           alt="A relevant description of the image"
-          className="w-full object-cover select-none"
+          className="w-full object-cover select-none mt-16"
           id="about-us"
         />
-
-        <div className="bg-black text-white lg:pb-20">
-          <h1 className="text-center px-2 text-white font-light text-4xl md:text-5xl lg:text-6xl xl:text-8xl xl:-translate-y-20">
+        <div className="bg-black text-white py-20">
+          <h1 className="text-center text-white font-light text-4xl md:text-5xl lg:text-6xl xl:text-8xl">
             Creating a{" "}
             <span className="underline italic font-thin">bridge</span> between
             good hearts
           </h1>
-          <div className="flex justify-between items-center w-full pt-10 lg:px-10">
-            <div className="flex flex-col gap-7">
-              <h1 className="text-sm md:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem] bg-white text-black rounded-r-full p-5 lg:p-4">
+          <div className="flex flex-col lg:flex-row justify-between items-center w-full pt-10 lg:px-10 space-y-10 lg:space-y-0">
+            <div className="flex flex-col gap-10 lg:w-1/2 lg:mr-10">
+              <h1 className="text-sm md:text-lg xl:text-2xl bg-white text-black rounded-r-full p-5 lg:p-4">
                 We provide volunteers a user-friendly platform for personalized
                 NGO matching and offer NGOs efficient recruitment tools to reach
                 dedicated volunteers, optimizing their impact on communities and
                 causes.
               </h1>
-              <h1 className="text-sm md:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem] bg-white text-black rounded-r-full p-5 lg:p-4 hidden lg:block">
+              <h1 className="text-sm md:text-lg xl:text-2xl bg-white text-black rounded-r-full p-5 lg:p-4 hidden lg:block">
                 Our goal is to simplify volunteer-NGO connections worldwide,
                 empowering individuals to find and engage with NGOs aligned with
                 their values, amplifying impact through meaningful
                 collaboration.
               </h1>
-              <h1 className="text-sm md:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem] bg-white text-black rounded-l-full p-5 lg:p-4 lg:hidden">
+              <h1 className="text-sm md:text-lg xl:text-2xl bg-white text-black rounded-l-full p-5 lg:p-4 lg:hidden">
                 Our goal is to simplify volunteer-NGO connections worldwide,
                 empowering individuals to find and engage with NGOs aligned with
                 their values, amplifying impact through meaningful
                 collaboration.
               </h1>
-              <h1 className="text-sm md:text-lg xl:text-2xl lg:w-[30rem] xl:w-[40rem] bg-white text-black rounded-r-full p-5 lg:p-4">
+              <h1 className="text-sm md:text-lg xl:text-2xl bg-white text-black rounded-r-full p-5 lg:p-4">
                 We provide volunteers a user-friendly platform for personalized
                 NGO matching and offer NGOs efficient recruitment tools to reach
                 dedicated volunteers, optimizing their impact on communities and
                 causes.
               </h1>
             </div>
-            <div className="hidden lg:block">
-              <div className="grid grid-rows-1 grid-cols-2 items-center">
+            <div className="grid grid-rows-1 grid-cols-2 items-center gap-10 lg:gap-20 lg:w-1/2">
+              <img
+                src="asset4.jpeg"
+                alt=""
+                className="h-[10rem] w-[10rem] xl:h-[15rem] xl:w-[15rem] rounded-full bg-white outline-2 outline-offset-4 outline-dashed outline-white object-cover"
+              />
+              <div className="flex flex-col gap-10">
                 <img
-                  src="asset4.jpeg"
+                  src="asset5.jpg"
                   alt=""
                   className="h-[10rem] w-[10rem] xl:h-[15rem] xl:w-[15rem] rounded-full bg-white outline-2 outline-offset-4 outline-dashed outline-white object-cover"
                 />
-                <div className="flex flex-col gap-48">
-                  <img
-                    src="asset5.jpg"
-                    alt=""
-                    className="h-[10rem] w-[10rem] xl:h-[15rem] xl:w-[15rem] rounded-full bg-white outline-2 outline-offset-4 outline-dashed outline-white object-cover"
-                  />
-                  <img
-                    src="asset6.jpg"
-                    alt=""
-                    className="h-[10rem] w-[10rem] xl:h-[15rem] xl:w-[15rem] rounded-full bg-white outline-2 outline-offset-4 outline-dashed outline-white object-cover"
-                  />
-                </div>
+                <img
+                  src="asset6.jpg"
+                  alt=""
+                  className="h-[10rem] w-[10rem] xl:h-[15rem] xl:w-[15rem] rounded-full bg-white outline-2 outline-offset-4 outline-dashed outline-white object-cover"
+                />
               </div>
             </div>
           </div>
