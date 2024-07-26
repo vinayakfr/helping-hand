@@ -9,7 +9,8 @@ const Navbar: React.FC = () => {
         <a href="/" className="text-2xl font-bold">HelpingHands</a>
         <div className="flex space-x-4">
           <a href="/browse" className="hover:text-gray-400">Browse Jobs</a>
-          <a href="/volunteer-registration" className="hover:text-gray-400">Sign Up</a>
+          <a href="/volunteer-registration" className="hover:text-gray-400">Volunteer_Sign_Up</a>
+          <a href="/organisation-registration" className="hover:text-gray-400">Organisation_Sign_Up</a>
           <a href="/log-in" className="hover:text-gray-400">Log In</a>
           <a href="/profile" className="hover:text-gray-400">Profile</a>
         </div>
