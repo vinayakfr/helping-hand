@@ -278,7 +278,7 @@ const VolunteerReg: React.FC = () => {
         {step === 5 && (
           <div className="flex flex-col gap-3 place-content-center place-items-center pt-2 lg:py-10">
             <h1 className="text-center font-bold text-6xl xl:text-8xl px-2">
-              YOU'RE GOATED
+              YOU&apos;RE GOATED
             </h1>
             <p className="text-center font-thin text-2xl xl:text-4xl px-4 py-5">
               YOU ARE ALL SIGNED IN USE THE NAVBAR TO GO WHEREVER YOU WANT
