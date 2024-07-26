@@ -127,7 +127,7 @@ const VolunteerReg: React.FC = () => {
           <div className="flex flex-col">
             <div className="flex justify-between place-content-center place-items-end px-10">
               <h1 className="font-bold text-center lg:text-left lg:w-[30rem] lg:text-8xl">
-                Let's start with some simple questions...
+                Let&apos;s start with some simple questions...
               </h1>
               <div className="flex flex-col place-content-center place-items-end gap-3 ">
                 <input
